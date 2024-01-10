@@ -5,7 +5,7 @@ using UIDefine;
 using UnityEngine.SceneManagement;
 using System;
 
-[System.Serializable]
+[Serializable]
 public class UIScreenElement
 {
     public UIScreenType myType;
@@ -56,29 +56,21 @@ public class UIManager : MonoBehaviour
     private void HandleUILoad(Scene scene, LoadSceneMode mode)
     {
         ChangeUIScreen((UIScreenType)scene.buildIndex);
+        canvas.worldCamera = Camera.main;
     }
 
     public void ChangeUIScreen(UIScreenType uiType)
     {
-        Debug.Log(uiType);
-        //foreach(Transform t in canvasTrm)
-        //{
-        //    Destroy(t.gameObject);
-        //}
-
-        //foreach(UIObject u in _elementDic[uiType])
-        //{
-        //    GameObject uiObj = Instantiate(u.gameObject, canvasTrm);
-        //    uiObj.name = uiObj.name.Replace("(Clone)", "");
-        //}
-        //_currentUiType = uiType;
-    }
-
-    private void Update()
-    {
-        if(Input.GetKeyDown(KeyCode.Space))
+        foreach (Transform t in canvasTrm)
         {
-            SceneManager.LoadScene(1);
+            Destroy(t.gameObject);
         }
+
+        foreach (UIObject u in _elementDic[uiType])
+        {
+            GameObject uiObj = Instantiate(u.gameObject, canvasTrm);
+            uiObj.name = uiObj.name.Replace("(Clone)", "");
+        }
+        _currentUiType = uiType;
     }
 }
