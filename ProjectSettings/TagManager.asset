@@ -3,7 +3,9 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Fire
+  - Ground
   layers:
   - Default
   - TransparentFX
@@ -56,9 +58,9 @@ TagManager:
   - name: UI
     uniqueID: 3615383613
     locked: 0
-  - name: Fire
-    uniqueID: 2987232735
-    locked: 0
   - name: FX
     uniqueID: 2637756845
+    locked: 0
+  - name: Fire
+    uniqueID: 2987232735
     locked: 0

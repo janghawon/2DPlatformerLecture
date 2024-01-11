@@ -16,7 +16,6 @@ public class PlayerInput : MonoBehaviour
 
     private void Start()
     {
-        _reader.jumpActon = null;
         _reader.jumpActon += OnJump;
         _reader.shootingEndAction = null;
         _reader.shootingEndAction += OutShoot;
