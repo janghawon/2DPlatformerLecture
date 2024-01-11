@@ -9,6 +9,7 @@ public class InputReader : ScriptableObject, Controls.IPlayerActions
 {
     public Action jumpActon;
     public bool isShooting;
+    public Action shootingEndAction;
     public Vector2 movementDirection;
     private Controls _controls;
 
@@ -41,6 +42,10 @@ public class InputReader : ScriptableObject, Controls.IPlayerActions
     public void OnShoot(InputAction.CallbackContext context)
     {
         isShooting = context.performed;
+        if(context.canceled)
+        {
+            shootingEndAction?.Invoke();
+        }
     }
 
     public void OnJump(InputAction.CallbackContext context)

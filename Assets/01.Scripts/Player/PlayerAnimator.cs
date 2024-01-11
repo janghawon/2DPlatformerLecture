@@ -4,15 +4,19 @@ using UnityEngine;
 
 public class PlayerAnimator : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    [SerializeField] private Animator _animator;
+
+    private readonly int _playerMoveHash = Animator.StringToHash("isRun");
+    private readonly int _playerShootHash = Animator.StringToHash("isShoot");
+
+    public void SetMoveAnimation(bool value)
     {
-        
+        _animator.SetBool(_playerMoveHash, value);
     }
 
-    // Update is called once per frame
-    void Update()
+    public void OnShootAnimaton(bool value, bool value2)
     {
-        
+        _animator.SetBool(_playerShootHash, value);
     }
+
 }

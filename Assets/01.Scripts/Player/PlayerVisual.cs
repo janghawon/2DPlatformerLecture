@@ -1,13 +1,12 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System;
 
 public class PlayerVisual : MonoBehaviour
 {
-    [SerializeField] private SpriteRenderer _spriteRenderer;
-
     public void SetFlip(bool isLeft /*true is Look Left, */)
     {
-        _spriteRenderer.flipX = isLeft;
+        transform.rotation = Quaternion.Euler(0, 180 * Convert.ToInt32(isLeft), 0);
     }
 }
