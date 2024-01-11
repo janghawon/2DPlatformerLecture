@@ -9,4 +9,6 @@ public class PlayerVisual : MonoBehaviour
     {
         transform.rotation = Quaternion.Euler(0, 180 * Convert.ToInt32(isLeft), 0);
     }
+
+    
 }

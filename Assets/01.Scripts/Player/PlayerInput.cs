@@ -38,14 +38,15 @@ public class PlayerInput : MonoBehaviour
 
         bool isMove = _reader.movementDirection.x != 0;
         _moveAnimaEvent?.Invoke(isMove);
-
+        
         if (isMove)
         {
             _flipEvent?.Invoke(_reader.movementDirection.x < 0);
         }
 
-        if(_reader.isShooting)
+        if (_reader.isShooting)
         {
+            _flipEvent?.Invoke(transform.InverseTransformPoint(GameManager.Instanace.GetMousePos()).x < 0);
             _shootEvent?.Invoke(true, isMove);
         }
     }

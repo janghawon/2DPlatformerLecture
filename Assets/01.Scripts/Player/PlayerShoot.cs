@@ -13,9 +13,4 @@ public class PlayerShoot : MonoBehaviour
         _playerArm.SetActive(isActive);
         _playerArm.transform.localPosition = isMove ? _movePos : _idleArmPos;
     }
-
-    public void HandleShoot()
-    {
-
-    }
 }

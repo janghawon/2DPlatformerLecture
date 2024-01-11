@@ -5,6 +5,8 @@ using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
+    [SerializeField] private Camera _mainCam;
+
     private static GameManager _instance;
     public static GameManager Instanace
     {
@@ -23,5 +25,14 @@ public class GameManager : MonoBehaviour
     public void ChangeScene(int sceneIdx)
     {
         SceneManager.LoadScene(sceneIdx);
+    }
+
+    public Vector3 GetMousePos()
+    {
+        if(_mainCam == null)
+        {
+            _mainCam = Camera.main;
+        }
+        return _mainCam.ScreenToWorldPoint(Input.mousePosition);
     }
 }
