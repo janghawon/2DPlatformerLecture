@@ -7,18 +7,17 @@ public class WaterLaser : MonoBehaviour
     [SerializeField] private LayerMask _layerMask;
     [SerializeField] private Transform _rayTrm;
     [SerializeField] private Transform _laserTrm;
+    [SerializeField] private GameObject _splash;
     private Vector2 _dir;
-    private float _angle;
 
-    public void SetDir(Vector2 value, float angle)
+    public void SetDir(Vector2 value)
     {
         _dir = value;
-        _angle = angle;
     }
 
     private void Update()
     {
-        RaycastHit2D hit = Physics2D.Raycast(_rayTrm.position, _dir, 13, _layerMask);
+        RaycastHit2D hit = Physics2D.Raycast(_rayTrm.position, _dir, 20, _layerMask);
         if (hit.collider != null)
         {
             Debug.Log(hit.collider);
@@ -29,14 +28,20 @@ public class WaterLaser : MonoBehaviour
             _laserTrm.localScale = new Vector3(_laserTrm.localScale.x,
                                                _laserTrm.localScale.y,
                                                length * 0.3f);
+            _splash.SetActive(true);
+            _splash.transform.position = second;
+            _splash.transform.localRotation = Quaternion.Euler(_dir);
         }
         else
         {
             _laserTrm.localScale = new Vector3(_laserTrm.localScale.x,
                                                _laserTrm.localScale.y,
-                                               3);
+                                               5);
+            _splash.SetActive(false);
         }
 
-        Debug.DrawRay(_rayTrm.position, _dir * 13, Color.red);
+        
+
+        Debug.DrawRay(_rayTrm.position, _dir * 3, Color.red);
     }
 }

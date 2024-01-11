@@ -5,11 +5,14 @@ using UnityEngine.Events;
 
 public class PlayerGun : MonoBehaviour
 {
+    [SerializeField] private UnityEvent<Vector2> _dirSetEvent;
+
     public void HandleGunShoot()
     {
         Vector3 dir = GameManager.Instanace.GetMousePos() - transform.position;
         float angle = Mathf.Atan2(dir.y, dir.x) * Mathf.Rad2Deg;
-        
+
+        _dirSetEvent?.Invoke(dir);
         if(angle >= 90 || angle <= -90)
         {
             angle = -angle;
