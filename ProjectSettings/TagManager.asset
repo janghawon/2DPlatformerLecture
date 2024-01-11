@@ -41,3 +41,24 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: BackGround
+    uniqueID: 2309182155
+    locked: 0
+  - name: Map
+    uniqueID: 353367569
+    locked: 0
+  - name: Player
+    uniqueID: 4135453215
+    locked: 0
+  - name: Object
+    uniqueID: 1047401467
+    locked: 0
+  - name: UI
+    uniqueID: 3615383613
+    locked: 0
+  - name: Fire
+    uniqueID: 2987232735
+    locked: 0
+  - name: FX
+    uniqueID: 2637756845
+    locked: 0
