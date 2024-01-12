@@ -36,7 +36,6 @@ public class WaterLaser : MonoBehaviour
         if (hit.collider != null)
         {
             #region 레이저 길이 계산
-            Debug.Log(hit.collider);
             Vector2 first = _laserTrm.position;
             Vector2 second = hit.point;
 

@@ -8,7 +8,7 @@ public class PlayerInput : MonoBehaviour
     [SerializeField] private InputReader _reader;
 
     [Header("클래스 참조는 역시 이벤트지~")]
-    [SerializeField] private UnityEvent<Vector2> _movementEvent = null;
+    [SerializeField] private UnityEvent<Vector2, float> _movementEvent = null;
     [SerializeField] private UnityEvent<bool> _flipEvent;
     [SerializeField] private UnityEvent<bool> _moveAnimaEvent;
     [SerializeField] private UnityEvent _jumpEvent;
@@ -33,8 +33,6 @@ public class PlayerInput : MonoBehaviour
 
     private void Update()
     {
-        _movementEvent?.Invoke(_reader.movementDirection);
-
         bool isMove = _reader.movementDirection.x != 0;
         _moveAnimaEvent?.Invoke(isMove);
         
@@ -42,6 +40,9 @@ public class PlayerInput : MonoBehaviour
         {
             _flipEvent?.Invoke(_reader.movementDirection.x < 0);
         }
+
+        float speed = _reader.isShooting ? 0.1f : 0.2f;
+        _movementEvent?.Invoke(_reader.movementDirection, speed);
 
         if (_reader.isShooting)
         {

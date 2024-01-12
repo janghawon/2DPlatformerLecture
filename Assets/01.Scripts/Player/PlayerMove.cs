@@ -9,8 +9,9 @@ public class PlayerMove : MonoBehaviour
     [SerializeField] private float _jumpForce;
     private Vector2 moveValue;
 
-    public void HandleSetValue(Vector2 value)
+    public void HandleSetValue(Vector2 value, float speed)
     {
+        _movementSpeed = speed;
         moveValue = value;
     }
 
