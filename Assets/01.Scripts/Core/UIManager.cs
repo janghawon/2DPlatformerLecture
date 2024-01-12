@@ -45,10 +45,6 @@ public class UIManager : MonoBehaviour
         {
             _elementDic.Add(use.myType, use.uiObjectGroup);
         }
-    }
-
-    private void Start()
-    {
         SceneManager.sceneLoaded += HandleUILoad;
         HandleUILoad(SceneManager.GetActiveScene(), LoadSceneMode.Single);
     }
@@ -56,7 +52,7 @@ public class UIManager : MonoBehaviour
     private void HandleUILoad(Scene scene, LoadSceneMode mode)
     {
         ChangeUIScreen((UIScreenType)scene.buildIndex);
-        canvas.worldCamera = Camera.main;
+        //canvas.worldCamera = Camera.main;
     }
 
     public void ChangeUIScreen(UIScreenType uiType)

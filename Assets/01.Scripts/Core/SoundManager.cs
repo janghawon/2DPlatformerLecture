@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using SoundDefine;
 
 public class SoundManager : MonoBehaviour
 {
@@ -19,5 +20,13 @@ public class SoundManager : MonoBehaviour
         }
     }
 
+    [SerializeField] private AudioSource _audioSource;
+    [SerializeField] private AudioClip[] _clipArr;
 
+    public void PlayBgm(BGMType bgm)
+    {
+        _audioSource.Stop();
+        _audioSource.clip = _clipArr[(int)bgm];
+        _audioSource.Play();
+    }
 }

@@ -23,6 +23,8 @@ public class PlayerInput : MonoBehaviour
 
     private void OnJump()
     {
+        if (!PlayerState.canJump) return;
+
         _jumpEvent?.Invoke();
     }
 
@@ -33,16 +35,24 @@ public class PlayerInput : MonoBehaviour
 
     private void Update()
     {
+        if (PlayerState.isDie) return;
+
         bool isMove = _reader.movementDirection.x != 0;
-        _moveAnimaEvent?.Invoke(isMove);
-        
-        if (isMove)
+
+        if (PlayerState.canMove)
         {
-            _flipEvent?.Invoke(_reader.movementDirection.x < 0);
+            _moveAnimaEvent?.Invoke(isMove);
+
+            if (isMove)
+            {
+                _flipEvent?.Invoke(_reader.movementDirection.x < 0);
+            }
+
+            float speed = _reader.isShooting ? 0.1f : 0.2f;
+            _movementEvent?.Invoke(_reader.movementDirection, speed);
         }
 
-        float speed = _reader.isShooting ? 0.1f : 0.2f;
-        _movementEvent?.Invoke(_reader.movementDirection, speed);
+        if (!PlayerState.canShoot) return;
 
         if (_reader.isShooting)
         {

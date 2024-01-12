@@ -4,8 +4,8 @@ using UnityEngine;
 
 public static class PlayerState
 {
-    public static bool canJump;
-    public static bool canMove;
-    public static bool isDie;
-    public static bool canShoot;
+    public static bool canJump = false;
+    public static bool canMove = false;
+    public static bool isDie = false;
+    public static bool canShoot = false;
 }
