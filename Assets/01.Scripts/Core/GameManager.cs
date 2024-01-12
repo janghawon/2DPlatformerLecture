@@ -7,6 +7,23 @@ public class GameManager : MonoBehaviour
 {
     [SerializeField] private Camera _mainCam;
 
+    private Transform _player;
+    public Transform Player
+    {
+        get
+        {
+            if(_player != null)
+                return _player;
+            else
+            {
+                _player = FindObjectOfType<PlayerInput>().transform;
+                return _player;
+            }
+        }
+    }
+
+    public int playerHP;
+
     private static GameManager _instance;
     public static GameManager Instanace
     {

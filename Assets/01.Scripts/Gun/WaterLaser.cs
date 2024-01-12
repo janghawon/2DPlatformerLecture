@@ -55,12 +55,20 @@ public class WaterLaser : MonoBehaviour
                 _splashEvent?.Invoke(false, second, _dir);
                 _ashEvent?.Invoke(true, second);
             }
+
+            if(hit.collider.TryGetComponent<Fire>(out Fire fire))
+            {
+                fire.GetDamage();
+            }
         }
         else
         {
             _laserTrm.localScale = new Vector3(_laserTrm.localScale.x,
                                                _laserTrm.localScale.y,
                                                5);
+
+            _ashEvent?.Invoke(false, Vector2.zero);
+            _splashEvent?.Invoke(false, Vector2.zero, _dir);
         }
 
         Debug.DrawRay(_rayTrm.position, _dir * 3, Color.red);

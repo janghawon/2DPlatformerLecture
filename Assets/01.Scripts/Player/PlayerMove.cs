@@ -5,13 +5,13 @@ using UnityEngine;
 public class PlayerMove : MonoBehaviour
 {
     [SerializeField] private Rigidbody2D _rigid;
-    [SerializeField] private float _movementSpeed;
+    public float movementSpeed;
     [SerializeField] private float _jumpForce;
     private Vector2 moveValue;
 
     public void HandleSetValue(Vector2 value, float speed)
     {
-        _movementSpeed = speed;
+        movementSpeed = speed;
         moveValue = value;
     }
 
@@ -22,6 +22,6 @@ public class PlayerMove : MonoBehaviour
 
     private void FixedUpdate()
     {
-        transform.position += (Vector3)moveValue * _movementSpeed;
+        transform.position += (Vector3)moveValue * movementSpeed;
     }
 }

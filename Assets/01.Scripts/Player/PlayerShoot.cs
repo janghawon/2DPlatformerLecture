@@ -12,5 +12,6 @@ public class PlayerShoot : MonoBehaviour
     {
         _playerArm.SetActive(isActive);
         _playerArm.transform.localPosition = isMove ? _movePos : _idleArmPos;
+        FeedbackManager.Instanace.ShakeScreen(0.05f, 0.1f);
     }
 }
