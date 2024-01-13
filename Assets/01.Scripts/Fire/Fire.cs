@@ -12,12 +12,16 @@ public class Fire : MonoBehaviour
 
     [Header("°ª")]
     [SerializeField] private FireType _myFireType;
+    public FireType MyFireType => _myFireType;
     [SerializeField] private Transform _fireOrigin;
     [SerializeField][Range(1, 10)] private float _hotDistance;
     private Transform _player => GameManager.Instanace.Player;
+    [SerializeField] private float _fadeTime;
+
+    private int _maxHealth;
     private int _health;
     private float _tickDamage;
-    [SerializeField] private float _fadeTime;
+    private Color _baseColor;
 
     [Header("»óÅÂ")]
     private bool _isSuppressed;
@@ -27,8 +31,11 @@ public class Fire : MonoBehaviour
     {
         FireData myData = FireManager.Instanace.GetFireData(_myFireType);
         _health = myData.health;
+        _maxHealth = _health;
         _tickDamage = myData.damage;
+        _baseColor = _fireRenderer.color;
     }
+
     public void GetDamage()
     {
         if (_isSuppressed) return;
@@ -44,11 +51,7 @@ public class Fire : MonoBehaviour
     private void BeSuppressed()
     {
         _collider.enabled = false;
-        Sequence seq = DOTween.Sequence();
-        
-        seq.Append(_fireRenderer.DOColor(Color.gray, _fadeTime));
-        seq.Join(_fireRenderer.DOFade(0, _fadeTime));
-        seq.AppendCallback(() => Destroy(gameObject));
+        _fireRenderer.DOFade(0, 0.4f).OnComplete(()=>Destroy(gameObject));
     }
 
     private void Update()

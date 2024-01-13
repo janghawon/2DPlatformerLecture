@@ -12,7 +12,7 @@ public class WaterLaser : MonoBehaviour
     private Vector2 _dir;
 
     [SerializeField] private UnityEvent<bool, Vector2, Vector2> _splashEvent;
-    [SerializeField] private UnityEvent<bool, Vector2> _ashEvent;
+    [SerializeField] private UnityEvent<bool, Vector2, Vector2> _ashEvent;
 
     private void Start()
     {
@@ -22,7 +22,7 @@ public class WaterLaser : MonoBehaviour
     private void ShootEnd()
     {
         _splashEvent?.Invoke(false, Vector2.zero, Vector2.zero);
-        _ashEvent?.Invoke(false, Vector2.zero);
+        _ashEvent?.Invoke(false, Vector2.zero, Vector2.zero);
     }
 
     public void SetDir(Vector2 value)
@@ -47,13 +47,13 @@ public class WaterLaser : MonoBehaviour
 
             if (hit.collider.CompareTag("Ground"))
             {
-                _ashEvent?.Invoke(false, second);
+                _ashEvent?.Invoke(false, second, Vector2.zero);
                 _splashEvent?.Invoke(true, second, _dir);
             }
             else if(hit.collider.CompareTag("Fire"))
             {
                 _splashEvent?.Invoke(false, second, _dir);
-                _ashEvent?.Invoke(true, second);
+                _ashEvent?.Invoke(true, second, _dir);
             }
 
             if(hit.collider.TryGetComponent<Fire>(out Fire fire))
@@ -64,10 +64,9 @@ public class WaterLaser : MonoBehaviour
         else
         {
             _laserTrm.localScale = new Vector3(_laserTrm.localScale.x,
-                                               _laserTrm.localScale.y,
-                                               5);
+                                               _laserTrm.localScale.y, 5);
 
-            _ashEvent?.Invoke(false, Vector2.zero);
+            _ashEvent?.Invoke(false, Vector2.zero, Vector2.zero);
             _splashEvent?.Invoke(false, Vector2.zero, _dir);
         }
 

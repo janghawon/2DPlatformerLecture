@@ -27,7 +27,7 @@ public class GameFlowSetter : MonoBehaviour
         mainBold.UpdateBoldText("ONE THING", true);
         yield return new WaitForSeconds(1f);
 
-        mainBold.UpdateBoldText("EXTINGUISHI.", true);
+        mainBold.UpdateBoldText("\"EXTINGUISHI\"", true);
         yield return new WaitForSeconds(1f);
 
         mainBold.UpdateBoldText(Direction.UP, Ease.InBack);

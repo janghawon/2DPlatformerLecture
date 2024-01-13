@@ -6,6 +6,7 @@ namespace UIDefine
     {
         title,
         inGame,
+        stage,
         result
     }
 

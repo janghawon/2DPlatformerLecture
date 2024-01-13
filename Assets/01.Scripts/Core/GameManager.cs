@@ -52,4 +52,9 @@ public class GameManager : MonoBehaviour
         }
         return _mainCam.ScreenToWorldPoint(Input.mousePosition);
     }
+
+    public Vector3 GetCanvasPos(Vector3 worldPos)
+    {
+        return _mainCam.WorldToScreenPoint(worldPos);
+    }
 }

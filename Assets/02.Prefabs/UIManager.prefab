@@ -194,7 +194,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7070462219163932193}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -220,4 +220,9 @@ MonoBehaviour:
   - myType: 0
     uiObjectGroup:
     - {fileID: 7884050095035614300, guid: e28363c59e6085042bac0edaa458683e, type: 3}
+  - myType: 1
+    uiObjectGroup:
+    - {fileID: 7809046652900986325, guid: 8a89f9031a936ac45a5bbb7e754cc020, type: 3}
+    - {fileID: 7704810497370945986, guid: f19a694fa81ac8846a3149bd005a3a42, type: 3}
+    - {fileID: 1289828205550959992, guid: e95806ede825bda4cb438fb73bdbec8d, type: 3}
   _startUiScreen: 0
