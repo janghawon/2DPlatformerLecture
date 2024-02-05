@@ -7,7 +7,7 @@ using DG.Tweening;
 public class Fire : MonoBehaviour
 {
     [Header("ÂüÁ¶")]
-    [SerializeField] private SpriteRenderer _fireRenderer;
+    [SerializeField] private SpriteRenderer[] _fireRenderer;
     [SerializeField] private Collider2D _collider;
 
     [Header("°ª")]
@@ -33,7 +33,9 @@ public class Fire : MonoBehaviour
         _health = myData.health;
         _maxHealth = _health;
         _tickDamage = myData.damage;
-        _baseColor = _fireRenderer.color;
+
+        for(int i = 0; i< _fireRenderer.Length; i++)
+            _baseColor = _fireRenderer[i].color;
     }
 
     public void GetDamage()
@@ -51,7 +53,8 @@ public class Fire : MonoBehaviour
     private void BeSuppressed()
     {
         _collider.enabled = false;
-        _fireRenderer.DOFade(0, 0.4f).OnComplete(()=>Destroy(gameObject));
+        for (int i = 0; i < _fireRenderer.Length; i++)
+            _fireRenderer[i].DOFade(0, 0.4f).OnComplete(()=>Destroy(gameObject));
     }
 
     private void Update()

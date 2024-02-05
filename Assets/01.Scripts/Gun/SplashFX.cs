@@ -9,5 +9,6 @@ public class SplashFX : MonoBehaviour
         gameObject.SetActive(value);
         transform.position = pos;
         transform.localRotation = Quaternion.Euler(dir);
+
     }
 }

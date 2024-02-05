@@ -15,7 +15,7 @@ public class GameFlowSetter : MonoBehaviour
     {
         MainBoldText mainBold = FindObjectOfType<MainBoldText>();
         WarnningTape warnTape = FindObjectOfType<WarnningTape>();
-        BossFire bossFire = FindObjectOfType<BossFire>();
+        BigFireBossFire bossFire = FindObjectOfType<BigFireBossFire>();
         SoundManager.Instanace.PlayBgm(SoundDefine.BGMType.Stage_1);
 
         mainBold.UpdateBoldText("REMEMBER", true);
@@ -27,7 +27,7 @@ public class GameFlowSetter : MonoBehaviour
         mainBold.UpdateBoldText("ONE THING", true);
         yield return new WaitForSeconds(1f);
 
-        mainBold.UpdateBoldText("\"EXTINGUISHI\"", true);
+        mainBold.UpdateBoldText("\"EXTINGUISH\"", true);
         yield return new WaitForSeconds(1f);
 
         mainBold.UpdateBoldText(Direction.UP, Ease.InBack);

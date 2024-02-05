@@ -65,7 +65,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: EXTINGUSHI FIRE !!!!
+  m_text: EXTINGUISH FIRE !!!!
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 75f5d7b2817e3564f85eac9c55a3a3c9, type: 2}
   m_sharedMaterial: {fileID: -7014335327726309601, guid: 75f5d7b2817e3564f85eac9c55a3a3c9, type: 2}
@@ -383,7 +383,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: EXTINGUSHI FIRE !!!!
+  m_text: EXTINGUISH FIRE !!!!
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 75f5d7b2817e3564f85eac9c55a3a3c9, type: 2}
   m_sharedMaterial: {fileID: -7014335327726309601, guid: 75f5d7b2817e3564f85eac9c55a3a3c9, type: 2}
@@ -667,7 +667,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: EXTINGUSHI FIRE !!!!
+  m_text: EXTINGUISH FIRE !!!!
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 75f5d7b2817e3564f85eac9c55a3a3c9, type: 2}
   m_sharedMaterial: {fileID: -7014335327726309601, guid: 75f5d7b2817e3564f85eac9c55a3a3c9, type: 2}
@@ -1314,7 +1314,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: EXTINGUSHI FIRE !!!!
+  m_text: EXTINGUISH FIRE !!!!
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 75f5d7b2817e3564f85eac9c55a3a3c9, type: 2}
   m_sharedMaterial: {fileID: -7014335327726309601, guid: 75f5d7b2817e3564f85eac9c55a3a3c9, type: 2}
@@ -1523,7 +1523,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: EXTINGUSHI FIRE !!!!
+  m_text: EXTINGUISH FIRE !!!!
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 75f5d7b2817e3564f85eac9c55a3a3c9, type: 2}
   m_sharedMaterial: {fileID: -7014335327726309601, guid: 75f5d7b2817e3564f85eac9c55a3a3c9, type: 2}

@@ -29,8 +29,19 @@ public class UIManager : MonoBehaviour
         }
     }
 
-    public Canvas canvas;
-    public Transform canvasTrm => canvas.transform;
+    private Canvas _canvas;
+    public Canvas Canvas
+    {
+        get
+        {
+            if (_canvas != null)
+                return _canvas;
+
+            _canvas = FindObjectOfType<Canvas>();
+            return _canvas;
+        }
+    }
+    public Transform canvasTrm => Canvas.transform;
 
     [SerializeField] private List<UIScreenElement> _elementGroup = new List<UIScreenElement>();
     private Dictionary<UIScreenType, UIObject[]> _elementDic;
@@ -69,4 +80,5 @@ public class UIManager : MonoBehaviour
         }
         _currentUiType = uiType;
     }
+
 }

@@ -4,7 +4,7 @@ namespace UIDefine
 {
     public enum UIScreenType
     {
-        title,
+        title = 0,
         inGame,
         stage,
         result
