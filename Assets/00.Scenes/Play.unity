@@ -1227,7 +1227,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 570024091}
-  - component: {fileID: 570024094}
   - component: {fileID: 570024093}
   - component: {fileID: 570024092}
   m_Layer: 0
@@ -1310,26 +1309,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c858bb9ae2237c6438c8abdbebbd830d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _destinationX: 74
-  _visualTrm: {fileID: 67163907}
---- !u!114 &570024094
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 570024090}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a52d4054365f1f349bef819287289baf, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _fireRenderer: {fileID: 67163908}
+  _fireRenderer: []
   _collider: {fileID: 570024092}
   _myFireType: 3
   _fireOrigin: {fileID: 67163907}
-  _hotDistance: 5.02
+  _hotDistance: 5
   _fadeTime: 0.4
+  _destinationX: 74
+  _visualTrm: {fileID: 67163907}
 --- !u!4 &614929619 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2697907003330219509, guid: 8edba1cee4bf992459acd78c85b9ecad, type: 3}
