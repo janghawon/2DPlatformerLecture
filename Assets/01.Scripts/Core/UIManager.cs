@@ -73,10 +73,13 @@ public class UIManager : MonoBehaviour
             Destroy(t.gameObject);
         }
 
-        foreach (UIObject u in _elementDic[uiType])
+        if(_elementDic.ContainsKey(uiType))
         {
-            GameObject uiObj = Instantiate(u.gameObject, canvasTrm);
-            uiObj.name = uiObj.name.Replace("(Clone)", "");
+            foreach (UIObject u in _elementDic[uiType])
+            {
+                GameObject uiObj = Instantiate(u.gameObject, canvasTrm);
+                uiObj.name = uiObj.name.Replace("(Clone)", "");
+            }
         }
         _currentUiType = uiType;
     }

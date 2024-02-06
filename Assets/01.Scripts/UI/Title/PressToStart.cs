@@ -18,7 +18,7 @@ public class PressToStart : MonoBehaviour
     {
         if(Input.anyKeyDown)
         {
-            GameManager.Instanace.ChangeScene(SceneType.InGameScene);
+            GameManager.Instanace.ChangeScene(SceneType.StageScene);
         }
     }
 }
