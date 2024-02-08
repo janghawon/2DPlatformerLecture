@@ -18,13 +18,17 @@ public class Fire : MonoBehaviour
     private Transform _player => GameManager.Instanace.Player;
     [SerializeField] private float _fadeTime;
 
-    private int _maxHealth;
-    private int _health;
-    private float _tickDamage;
+    protected int _maxHealth;
+    protected int _health;
+
+    public int MaxHealth => _maxHealth;
+    public int CurrentHealth => _health;
+
     private Color _baseColor;
 
     [Header("ป๓ลย")]
     private bool _isSuppressed;
+    public bool IsSuppressed => _isSuppressed;
     private float _currentTime;
 
     private void Start()
@@ -32,7 +36,6 @@ public class Fire : MonoBehaviour
         FireData myData = FireManager.Instanace.GetFireData(_myFireType);
         _health = myData.health;
         _maxHealth = _health;
-        _tickDamage = myData.damage;
 
         for(int i = 0; i< _fireRenderer.Length; i++)
             _baseColor = _fireRenderer[i].color;
@@ -59,13 +62,12 @@ public class Fire : MonoBehaviour
 
     private void Update()
     {
-        if(IsInTick())
+        if(IsInRange())
         {
-            SetDamage();
         }
     }
 
-    private bool IsInTick()
+    private bool IsInRange()
     {
         if (Vector2.Distance(_player.position, _fireOrigin.position) > _hotDistance) return false;
 
@@ -76,11 +78,6 @@ public class Fire : MonoBehaviour
             return true;
         }
         return false;
-    }
-
-    private void SetDamage()
-    {
-        Debug.Log(_tickDamage);
     }
 
 #if UNITY_EDITOR

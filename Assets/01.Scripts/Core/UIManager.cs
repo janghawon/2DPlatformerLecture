@@ -63,7 +63,7 @@ public class UIManager : MonoBehaviour
     private void HandleUILoad(Scene scene, LoadSceneMode mode)
     {
         ChangeUIScreen((UIScreenType)scene.buildIndex);
-        //canvas.worldCamera = Camera.main;
+        Canvas.worldCamera = Camera.main;
     }
 
     public void ChangeUIScreen(UIScreenType uiType)

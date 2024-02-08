@@ -13,16 +13,29 @@ public class StageBossPanel : MonoBehaviour, IPointerClickHandler
     public int StageIdx => _stageIdx;
     [SerializeField] private UnityEvent<int, bool> _panelActiveEvent;
 
+    [SerializeField] private GameObject[] _stateObjectArr; 
+
     public void SetStageStage(StageBubbleState state)
     {
         Color selectColor = StageManager.Instance.GetStateColor(state);
 
         _myPanelImg.color = selectColor;
         _myLine.color = selectColor;
+
+        _myPanelImg.raycastTarget = (state == StageBubbleState.canChallenge);
+        for(int i = 0; i < _stateObjectArr.Length; i++)
+        {
+            _stateObjectArr[i].SetActive(i == (int)state);
+        }
     }
 
     public void OnPointerClick(PointerEventData eventData)
     {
         _panelActiveEvent?.Invoke(_stageIdx - 1, true);
+    }
+
+    public void PanelDown()
+    {
+        _panelActiveEvent?.Invoke(_stageIdx - 1, false);
     }
 }

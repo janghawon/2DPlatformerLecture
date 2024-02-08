@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using System;
+using UnityEngine.SceneManagement;
 
 public enum StageBubbleState
 {
@@ -30,8 +31,10 @@ public class StageManager : MonoBehaviour
     [SerializeField] private Color[] _stageColorArr;
     private Dictionary<StageBubbleState, Color> _getStageColorDic = new Dictionary<StageBubbleState, Color>();
     private Dictionary<int, StageBubbleState> _checkStageTypeDic = new Dictionary<int, StageBubbleState>();
-
     public StageData stageData = new StageData();
+
+    public int SelectStageIdx { get; set; }
+    [SerializeField] private GameObject[] _gameStageArr;
 
     private void Awake()
     {
@@ -43,6 +46,16 @@ public class StageManager : MonoBehaviour
         for(int i = 0; i < 4; i++)
         {
             _checkStageTypeDic.Add(i, StageBubbleState.unDefine);
+        }
+
+        SceneManager.sceneLoaded += HandleCreateStage;
+    }
+
+    private void HandleCreateStage(Scene scene, LoadSceneMode mode)
+    {
+        if(scene.name == "Play")
+        {
+            Instantiate(_gameStageArr[SelectStageIdx - 1]);
         }
     }
 

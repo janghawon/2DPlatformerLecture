@@ -150,9 +150,11 @@ MonoBehaviour:
   - myType: 0
     uiObjectGroup:
     - {fileID: 7884050095035614300, guid: e28363c59e6085042bac0edaa458683e, type: 3}
-  - myType: 1
+  - myType: 2
     uiObjectGroup:
     - {fileID: 7809046652900986325, guid: 8a89f9031a936ac45a5bbb7e754cc020, type: 3}
     - {fileID: 7704810497370945986, guid: f19a694fa81ac8846a3149bd005a3a42, type: 3}
-    - {fileID: 1289828205550959992, guid: e95806ede825bda4cb438fb73bdbec8d, type: 3}
+  - myType: 1
+    uiObjectGroup:
+    - {fileID: 6046855644307012769, guid: 50fa34ba57aadf34782375781aadc07c, type: 3}
   _startUiScreen: 0
