@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using DG.Tweening;
-using System;
+using UnityEngine.SceneManagement;
 
 public class LookInfoPanel : MonoBehaviour
 {
@@ -14,6 +14,8 @@ public class LookInfoPanel : MonoBehaviour
     {
         if (value)
         {
+            StageManager.Instance.SelectStageIdx = idx;
+
             _backPanel.raycastTarget = true;
             _backPanel.DOFade(0.2f, 0.2f);
             _infoPanelArr[idx].gameObject.SetActive(true);
@@ -26,5 +28,10 @@ public class LookInfoPanel : MonoBehaviour
             _infoPanelArr[idx].DOLocalMoveY(-1000, 0.2f).
                                OnComplete(() => _infoPanelArr[idx].gameObject.SetActive(false));
         }
+    }
+
+    public void LoadSceneToPlay()
+    {
+        SceneManager.LoadScene("Play");
     }
 }

@@ -8,7 +8,10 @@ public class BigFireBossFire : Fire
     [SerializeField] private float _destinationX;
     [SerializeField] private Transform _visualTrm;
 
-    private void Start()
+    private Tween _shakeTween;
+    private Tween _moveTween;
+
+    private void Awake()
     {
         transform.localScale = new Vector3(1, 0, 1);
     }
@@ -24,8 +27,16 @@ public class BigFireBossFire : Fire
 
     private void StartChase()
     {
-        _visualTrm.DOShakePosition(0.2f, 0.5f, 3).SetLoops(-1);
-        transform.DOMoveX(_destinationX, 60);
+        _shakeTween = _visualTrm.DOShakePosition(0.2f, 0.5f, 3).SetLoops(-1);
+        _moveTween = transform.DOMoveX(_destinationX, 60);
+    }
+
+    private void OnDestroy()
+    {
+        _shakeTween.Kill();
+        _moveTween.Kill();
+
+        StageManager.Instance.ClearStage();
     }
 
     private void OnTriggerEnter2D(Collider2D collision)

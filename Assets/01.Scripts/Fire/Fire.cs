@@ -18,11 +18,11 @@ public class Fire : MonoBehaviour
     private Transform _player => GameManager.Instanace.Player;
     [SerializeField] private float _fadeTime;
 
-    protected int _maxHealth;
-    protected int _health;
+    protected float _maxHealth;
+    protected float _health;
 
-    public int MaxHealth => _maxHealth;
-    public int CurrentHealth => _health;
+    public float MaxHealth => _maxHealth;
+    public float CurrentHealth => _health;
 
     private Color _baseColor;
 

@@ -197,7 +197,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a52d4054365f1f349bef819287289baf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _fireRenderer: {fileID: 7820088733089154661}
+  _fireRenderer:
+  - {fileID: 7820088733089154661}
   _collider: {fileID: 6797701916048547617}
   _myFireType: 0
   _fireOrigin: {fileID: 3247707579420772713}

@@ -55,7 +55,7 @@ public class StageManager : MonoBehaviour
     {
         if(scene.name == "Play")
         {
-            Instantiate(_gameStageArr[SelectStageIdx - 1]);
+            Instantiate(_gameStageArr[SelectStageIdx]);
         }
     }
 
@@ -75,5 +75,10 @@ public class StageManager : MonoBehaviour
     public StageBubbleState GetStageState(int stageIdx)
     {
         return _checkStageTypeDic[stageIdx];
+    }
+
+    public void ClearStage()
+    {
+
     }
 }

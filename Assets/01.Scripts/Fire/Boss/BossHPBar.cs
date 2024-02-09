@@ -26,7 +26,11 @@ public class BossHPBar : MonoBehaviour
             return;
         }
 
-        transform.position = GameManager.Instanace.GetCanvasPos(_followingTrm.position);
+        transform.localPosition = 
+            GameManager.Instanace.GetCanvasPos(_followingTrm.position,
+                                               UIManager.Instanace.canvasTrm as RectTransform);
+
+        Debug.Log(_ownerBoss.CurrentHealth / _ownerBoss.MaxHealth);
         _hpBarSlider.value = _ownerBoss.CurrentHealth / _ownerBoss.MaxHealth;
     }
 }

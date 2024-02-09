@@ -5,7 +5,17 @@ using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
-    [SerializeField] private Camera _mainCam;
+    private Camera _mainCam;
+    public Camera MainCamera
+    {
+        get
+        {
+            if (_mainCam != null) return _mainCam;
+
+            _mainCam = Camera.main;
+            return _mainCam;
+        }
+    }
 
     private Transform _player;
     public Transform Player
@@ -46,15 +56,17 @@ public class GameManager : MonoBehaviour
 
     public Vector3 GetMousePos()
     {
-        if(_mainCam == null)
-        {
-            _mainCam = Camera.main;
-        }
-        return _mainCam.ScreenToWorldPoint(Input.mousePosition);
+        return MainCamera.ScreenToWorldPoint(Input.mousePosition);
     }
 
-    public Vector3 GetCanvasPos(Vector3 worldPos)
+    public Vector3 GetCanvasPos(Vector2 worldPos, RectTransform canvasRect)
     {
-        return _mainCam.WorldToScreenPoint(worldPos);
+        Vector2 screenPoint = RectTransformUtility.WorldToScreenPoint(MainCamera, worldPos);
+        Vector2 canvasPos;
+        RectTransformUtility.ScreenPointToLocalPointInRectangle(canvasRect, 
+                                                                screenPoint, 
+                                                                MainCamera, 
+                                                                out canvasPos);
+        return canvasPos;
     }
 }

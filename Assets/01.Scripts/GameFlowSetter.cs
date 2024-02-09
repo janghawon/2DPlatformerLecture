@@ -16,7 +16,10 @@ public class GameFlowSetter : MonoBehaviour
         MainBoldText mainBold = FindObjectOfType<MainBoldText>();
         WarnningTape warnTape = FindObjectOfType<WarnningTape>();
         BigFireBossFire bossFire = FindObjectOfType<BigFireBossFire>();
+        BossManagement bossManagement = FindObjectOfType<BossManagement>();
         SoundManager.Instanace.PlayBgm(SoundDefine.BGMType.Stage_1);
+
+        Transform bossBarTrm = GameObject.Find("BossFire/HPBarPos").transform;
 
         mainBold.UpdateBoldText("REMEMBER", true);
         yield return new WaitForSeconds(1f);
@@ -38,5 +41,6 @@ public class GameFlowSetter : MonoBehaviour
         PlayerState.canShoot = true;
 
         bossFire.Active(true);
+        bossManagement.SettingBossHpBar(bossBarTrm, UIManager.Instanace.canvasTrm, bossFire);
     }
 }

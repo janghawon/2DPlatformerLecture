@@ -64,3 +64,6 @@ TagManager:
   - name: Fire
     uniqueID: 2987232735
     locked: 0
+  - name: CanvasUI
+    uniqueID: 3594974059
+    locked: 0
