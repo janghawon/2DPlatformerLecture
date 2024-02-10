@@ -7,7 +7,8 @@ namespace UIDefine
         title = 0,
         stage,
         inGame,
-        result
+        result,
+        loading
     }
 
     public enum Direction

@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -51,7 +52,21 @@ public class GameManager : MonoBehaviour
 
     public void ChangeScene(int sceneIdx)
     {
-        SceneManager.LoadScene(sceneIdx);
+        SceneManager.LoadScene("LoadingScene");
+
+        StartCoroutine(LoadSceneCoroutine(sceneIdx));
+        
+    }
+
+    IEnumerator LoadSceneCoroutine(int bIDX)
+    {
+        AsyncOperation sceneLoadAsyncOperation = SceneManager.LoadSceneAsync(bIDX);
+        while(sceneLoadAsyncOperation.isDone)
+        {
+            LoadingSequence.Instanace.SetLoadingText($"{Mathf.Floor(sceneLoadAsyncOperation.progress * 100 * 10) / 10}%");
+            LoadingSequence.Instanace.SetLoadingBar(sceneLoadAsyncOperation.progress);
+            yield return null;
+        }
     }
 
     public Vector3 GetMousePos()

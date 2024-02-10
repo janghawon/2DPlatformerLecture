@@ -1,0 +1,1724 @@
+fileFormatVersion: 2
+guid: 64a24238471ce12479d692b40bf3a013
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: qpfr_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6193
+        width: 1000
+        height: 563
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89adbca075a21e949b8d9171bde2dc50
+      internalID: 1434437513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: qpfr_1
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 6193
+        width: 1000
+        height: 563
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 861271fe845b33944a96bef754848560
+      internalID: -296709103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: qpfr_2
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 6193
+        width: 1000
+        height: 563
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f830e727e4c08e4e82b95de72e0c7aa
+      internalID: 2087148776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: qpfr_3
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 6193
+        width: 1000
+        height: 563
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e49932ea4e1926a40846c04759baf765
+      internalID: -2074472201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: qpfr_4
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 6193
+        width: 1000
+        height: 563
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f81365877e39a545a20468613892b7a
+      internalID: 1461604318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: qpfr_5
+      rect:
+        serializedVersion: 2
+        x: 5000
+        y: 6193
+        width: 1000
+        height: 563
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3de5c5630ffde60499458efe27299add
+      internalID: 1682741096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: qpfr_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5630
+        width: 1000
+        height: 563
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6636ca3e80ba5143871bbe9ea98c24a
+      internalID: -309654856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: qpfr_7
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 5630
+        width: 1000
+        height: 563
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2faece4d29445a418157d464e205195
+      internalID: -1600985406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: qpfr_8
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 5630
+        width: 1000
+        height: 563
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea33dc2cd4b0918459901798a538454b
+      internalID: -1587558376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: qpfr_9
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 5630
+        width: 1000
+        height: 563
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18c8b01eda39ef44a90a24e2b7486a42
+      internalID: 2112807689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: qpfr_10
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 5630
+        width: 1000
+        height: 563
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a44cced9af301ce4aa35bfd122ed26d8
+      internalID: 1294457576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: qpfr_11
+      rect:
+        serializedVersion: 2
+        x: 5000
+        y: 5630
+        width: 1000
+        height: 563
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b33d9130715caf4e8bc702e8632c0aa
+      internalID: 1302992213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: qpfr_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5067
+        width: 1000
+        height: 563
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccbda30355238fc4ca9dd8cebdc45a99
+      internalID: 1947846110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: qpfr_13
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 5067
+        width: 1000
+        height: 563
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69d236f8beee0a8478fd070044bd42f7
+      internalID: -957140166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: qpfr_14
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 5067
+        width: 1000
+        height: 563
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a1274b4348331a4fb63fb20329f03c0
+      internalID: -143611338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: qpfr_15
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 5067
+        width: 1000
+        height: 563
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5c84dea2937ca145a109ecf77e98372
+      internalID: -2054241968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: qpfr_16
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 5067
+        width: 1000
+        height: 563
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acc5f388a979ae84cbaeb7e413048784
+      internalID: 1262285637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: qpfr_17
+      rect:
+        serializedVersion: 2
+        x: 5000
+        y: 5067
+        width: 1000
+        height: 563
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f474a1f8774ffce47a7bd65d7ece9bcf
+      internalID: 435278464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: qpfr_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4504
+        width: 1000
+        height: 563
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0e56a91fbc3ae1479bfca4408b88352
+      internalID: 2029336118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: qpfr_19
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 4504
+        width: 1000
+        height: 563
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e7d188d1568c4e4a993c1d75910b362
+      internalID: -71713609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: qpfr_20
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 4504
+        width: 1000
+        height: 563
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00846176e2539ae42932df99952cbc41
+      internalID: -1919355731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: qpfr_21
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 4504
+        width: 1000
+        height: 563
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b80e861045614d49b5f51038a1ee52b
+      internalID: -1387151664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: qpfr_22
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 4504
+        width: 1000
+        height: 563
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f62b5c8f94a0884b9b8fecdc739e432
+      internalID: -323215761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: qpfr_23
+      rect:
+        serializedVersion: 2
+        x: 5000
+        y: 4504
+        width: 1000
+        height: 563
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88fa9d544de66e245b9ad097ec23faca
+      internalID: 84892971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: qpfr_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3941
+        width: 1000
+        height: 563
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d23559ab7889b6345b48295af3e22194
+      internalID: -103947816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: qpfr_25
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 3941
+        width: 1000
+        height: 563
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d25922b4041e7114cb6d4f6a5d8c6080
+      internalID: 139371616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: qpfr_26
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 3941
+        width: 1000
+        height: 563
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 010cd26853e1dc3449d9c243eb7270d0
+      internalID: -331795697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: qpfr_27
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 3941
+        width: 1000
+        height: 563
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef2652eab72c4334091457e20ab8db4a
+      internalID: -1692205579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: qpfr_28
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 3941
+        width: 1000
+        height: 563
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a9334024ae85d14ebdc22c6d95340b8
+      internalID: 1149869486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: qpfr_29
+      rect:
+        serializedVersion: 2
+        x: 5000
+        y: 3941
+        width: 1000
+        height: 563
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f124dbea379f614190b6a7ca4542ed8
+      internalID: 370173136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: qpfr_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3378
+        width: 1000
+        height: 563
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddc890726b5f73041a086385afab3be7
+      internalID: 1417155200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: qpfr_31
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 3378
+        width: 1000
+        height: 563
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b26ac79a95f31449a86e00acea4ba89
+      internalID: 323278444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: qpfr_32
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 3378
+        width: 1000
+        height: 563
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d13c94bcb253da4baa4cf1ec21680d9
+      internalID: -1415666681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: qpfr_33
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 3378
+        width: 1000
+        height: 563
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e9798a8c59523a48a39863712018d06
+      internalID: -957431978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: qpfr_34
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 3378
+        width: 1000
+        height: 563
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d4e698d7ed889240829e9503d770ae0
+      internalID: -1900283073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: qpfr_35
+      rect:
+        serializedVersion: 2
+        x: 5000
+        y: 3378
+        width: 1000
+        height: 563
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30cb8b0f802d2304c836d1a256ce54ae
+      internalID: 458758342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: qpfr_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2815
+        width: 1000
+        height: 563
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc6d7001ea128df42babc323c00a708b
+      internalID: -1441084109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: qpfr_37
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 2815
+        width: 1000
+        height: 563
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5061048bf9945ae4f969b1a0c89b56f3
+      internalID: -99790711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: qpfr_38
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 2815
+        width: 1000
+        height: 563
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29cbfa618ef455d4ab625cd2ac925808
+      internalID: -1811945366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: qpfr_39
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 2815
+        width: 1000
+        height: 563
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23c418698f268fa49b2425b07660121f
+      internalID: 917753136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: qpfr_40
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 2815
+        width: 1000
+        height: 563
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 343da65c2524bc84bb1413f7a4652bfb
+      internalID: 432441032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: qpfr_41
+      rect:
+        serializedVersion: 2
+        x: 5000
+        y: 2815
+        width: 1000
+        height: 563
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c06ab8c6aa43b0d499a3ae58e4542007
+      internalID: 2036457525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: qpfr_42
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2252
+        width: 1000
+        height: 563
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a10623ef4d712b46b23f94411ccacfb
+      internalID: -72313896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: qpfr_43
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 2252
+        width: 1000
+        height: 563
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9ad86c8d14f5ff4dba6b37bc72ed915
+      internalID: -592576388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: qpfr_44
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 2252
+        width: 1000
+        height: 563
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 669a19f0c3b946744bffe9f9cda24909
+      internalID: 933533466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: qpfr_45
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 2252
+        width: 1000
+        height: 563
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0961d4844f4b5c49aa0b91f29f884af
+      internalID: 1764476265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: qpfr_46
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 2252
+        width: 1000
+        height: 563
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b1f8bfb16b7970439c3e3e290e43c06
+      internalID: 341344882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: qpfr_47
+      rect:
+        serializedVersion: 2
+        x: 5000
+        y: 2252
+        width: 1000
+        height: 563
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 386226f322fe9aa4288ff49228616740
+      internalID: -1150290331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: qpfr_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1689
+        width: 1000
+        height: 563
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ffc49dba1b11da419aac33b2ee0048b
+      internalID: -1892561171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: qpfr_49
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 1689
+        width: 1000
+        height: 563
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 257271df736a11d45914a4843bf8bf54
+      internalID: -1048550449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: qpfr_50
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 1689
+        width: 1000
+        height: 563
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 381afc0516f8dc7459d69c76ee0ff141
+      internalID: -452359375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: qpfr_51
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 1689
+        width: 1000
+        height: 563
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 690b969ecfb257a47bc7ae243044e4f2
+      internalID: 413148522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: qpfr_52
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 1689
+        width: 1000
+        height: 563
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c988674df9977a4f9d8206d79a3070e
+      internalID: 971577248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: qpfr_53
+      rect:
+        serializedVersion: 2
+        x: 5000
+        y: 1689
+        width: 1000
+        height: 563
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72fd033bc07a66649b00cd351205efe2
+      internalID: -408756821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: qpfr_54
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1126
+        width: 1000
+        height: 563
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfa7cf2761cf59745a760b3af3055717
+      internalID: -1231644428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: qpfr_55
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 1126
+        width: 1000
+        height: 563
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbea01d8a50dc074f8d4b4a859aa5979
+      internalID: 19688456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: qpfr_56
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 1126
+        width: 1000
+        height: 563
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6974ca41909628c4cbedae39dbf8f27f
+      internalID: 366795670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: qpfr_57
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 1126
+        width: 1000
+        height: 563
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ff2c38ac333b5b4c9c2cd68b82c61f4
+      internalID: -296664949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: qpfr_58
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 1126
+        width: 1000
+        height: 563
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6296a22318ad1a44aede97b6ef6f3c6
+      internalID: 537653538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: qpfr_59
+      rect:
+        serializedVersion: 2
+        x: 5000
+        y: 1126
+        width: 1000
+        height: 563
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aeda1ca5cfa68c74896b38500304caa6
+      internalID: -339693642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: qpfr_60
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 563
+        width: 1000
+        height: 563
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d39f738824f4b848989adae1f35c581
+      internalID: -1772580628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: qpfr_61
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 563
+        width: 1000
+        height: 563
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27c5603be75d9cf4fb231c60075c7b8b
+      internalID: -1561832657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: qpfr_62
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 563
+        width: 1000
+        height: 563
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e6650adf7d4f034e867d22e4b192181
+      internalID: -2136933880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: qpfr_63
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 563
+        width: 1000
+        height: 563
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04638df72b71ae94b9199b855ebaab21
+      internalID: 1955279864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: qpfr_64
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 563
+        width: 1000
+        height: 563
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e509ed00dd9b4af4e8d4488519a4d935
+      internalID: -1839844596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: qpfr_65
+      rect:
+        serializedVersion: 2
+        x: 5000
+        y: 563
+        width: 1000
+        height: 563
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4458a501473edf498091173d7bacd89
+      internalID: -924847321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: qpfr_66
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1000
+        height: 563
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb0dfe2aa6c6f1b45af3c141de00b0d7
+      internalID: -2117091384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: qpfr_67
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 0
+        width: 1000
+        height: 563
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ec695e6d876f5247b07e4edcfd6881d
+      internalID: -871987600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: qpfr_68
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 0
+        width: 1000
+        height: 563
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bef4727afc501c14999c5f46cbedf73c
+      internalID: 460999513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: qpfr_69
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 0
+        width: 1000
+        height: 563
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfd68dbf982ac864f90fa91dc6f63470
+      internalID: 55657263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: qpfr_70
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 0
+        width: 1000
+        height: 563
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef5943863ea8154479d58dfd1a518d75
+      internalID: -921464065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: qpfr_71
+      rect:
+        serializedVersion: 2
+        x: 5000
+        y: 0
+        width: 1000
+        height: 563
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2966efd8040eb9478ec123d820f6e80
+      internalID: -1115238427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      qpfr_0: 1434437513
+      qpfr_1: -296709103
+      qpfr_10: 1294457576
+      qpfr_11: 1302992213
+      qpfr_12: 1947846110
+      qpfr_13: -957140166
+      qpfr_14: -143611338
+      qpfr_15: -2054241968
+      qpfr_16: 1262285637
+      qpfr_17: 435278464
+      qpfr_18: 2029336118
+      qpfr_19: -71713609
+      qpfr_2: 2087148776
+      qpfr_20: -1919355731
+      qpfr_21: -1387151664
+      qpfr_22: -323215761
+      qpfr_23: 84892971
+      qpfr_24: -103947816
+      qpfr_25: 139371616
+      qpfr_26: -331795697
+      qpfr_27: -1692205579
+      qpfr_28: 1149869486
+      qpfr_29: 370173136
+      qpfr_3: -2074472201
+      qpfr_30: 1417155200
+      qpfr_31: 323278444
+      qpfr_32: -1415666681
+      qpfr_33: -957431978
+      qpfr_34: -1900283073
+      qpfr_35: 458758342
+      qpfr_36: -1441084109
+      qpfr_37: -99790711
+      qpfr_38: -1811945366
+      qpfr_39: 917753136
+      qpfr_4: 1461604318
+      qpfr_40: 432441032
+      qpfr_41: 2036457525
+      qpfr_42: -72313896
+      qpfr_43: -592576388
+      qpfr_44: 933533466
+      qpfr_45: 1764476265
+      qpfr_46: 341344882
+      qpfr_47: -1150290331
+      qpfr_48: -1892561171
+      qpfr_49: -1048550449
+      qpfr_5: 1682741096
+      qpfr_50: -452359375
+      qpfr_51: 413148522
+      qpfr_52: 971577248
+      qpfr_53: -408756821
+      qpfr_54: -1231644428
+      qpfr_55: 19688456
+      qpfr_56: 366795670
+      qpfr_57: -296664949
+      qpfr_58: 537653538
+      qpfr_59: -339693642
+      qpfr_6: -309654856
+      qpfr_60: -1772580628
+      qpfr_61: -1561832657
+      qpfr_62: -2136933880
+      qpfr_63: 1955279864
+      qpfr_64: -1839844596
+      qpfr_65: -924847321
+      qpfr_66: -2117091384
+      qpfr_67: -871987600
+      qpfr_68: 460999513
+      qpfr_69: 55657263
+      qpfr_7: -1600985406
+      qpfr_70: -921464065
+      qpfr_71: -1115238427
+      qpfr_8: -1587558376
+      qpfr_9: 2112807689
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

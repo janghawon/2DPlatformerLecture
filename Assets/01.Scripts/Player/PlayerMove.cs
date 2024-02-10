@@ -22,6 +22,7 @@ public class PlayerMove : MonoBehaviour
 
     private void FixedUpdate()
     {
-        transform.position += (Vector3)moveValue * movementSpeed;
+        if(PlayerState.canMove)
+            transform.position += (Vector3)moveValue * movementSpeed;
     }
 }

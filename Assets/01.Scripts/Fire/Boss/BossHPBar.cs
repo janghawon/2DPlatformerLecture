@@ -30,7 +30,6 @@ public class BossHPBar : MonoBehaviour
             GameManager.Instanace.GetCanvasPos(_followingTrm.position,
                                                UIManager.Instanace.canvasTrm as RectTransform);
 
-        Debug.Log(_ownerBoss.CurrentHealth / _ownerBoss.MaxHealth);
         _hpBarSlider.value = _ownerBoss.CurrentHealth / _ownerBoss.MaxHealth;
     }
 }

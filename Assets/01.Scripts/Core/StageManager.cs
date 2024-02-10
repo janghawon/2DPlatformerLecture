@@ -35,6 +35,9 @@ public class StageManager : MonoBehaviour
 
     public int SelectStageIdx { get; set; }
     [SerializeField] private GameObject[] _gameStageArr;
+    [SerializeField] private GameEndPanel[] _gameEndPanelArr;
+
+    private GameObject _currentStageObj;
 
     private void Awake()
     {
@@ -77,8 +80,14 @@ public class StageManager : MonoBehaviour
         return _checkStageTypeDic[stageIdx];
     }
 
-    public void ClearStage()
+    public void ClearStage(Transform canvasTrm)
     {
+        Instantiate(_gameEndPanelArr[SelectStageIdx], canvasTrm);
+    }
 
+    public void ResetStage()
+    {
+        Destroy(_currentStageObj);
+        Instantiate(_gameStageArr[SelectStageIdx]);
     }
 }

@@ -36,7 +36,7 @@ public class BigFireBossFire : Fire
         _shakeTween.Kill();
         _moveTween.Kill();
 
-        StageManager.Instance.ClearStage();
+        StageManager.Instance.ClearStage(UIManager.Instanace.canvasTrm);
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
