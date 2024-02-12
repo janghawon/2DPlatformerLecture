@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using DG.Tweening;
-using UnityEngine.SceneManagement;
 
 public class LookInfoPanel : MonoBehaviour
 {
@@ -32,6 +31,6 @@ public class LookInfoPanel : MonoBehaviour
 
     public void LoadSceneToPlay()
     {
-        SceneManager.LoadScene("Play");
+        GameManager.Instanace.ChangeScene(2);
     }
 }

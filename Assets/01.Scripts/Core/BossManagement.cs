@@ -5,10 +5,16 @@ using UnityEngine;
 public class BossManagement : MonoBehaviour
 {
     [SerializeField] private BossHPBar _bossHpBarPrefab;
+    private BossHPBar _currentHpBar;
 
     public void SettingBossHpBar(Transform followingPos, Transform canvasTrm, Fire targetBoss)
     {
-        BossHPBar hpBar = Instantiate(_bossHpBarPrefab, canvasTrm);
-        hpBar.SetUp(followingPos, targetBoss);
+        _currentHpBar = Instantiate(_bossHpBarPrefab, canvasTrm);
+        _currentHpBar.SetUp(followingPos, targetBoss);
+    }
+
+    public void RemoveBossHpBar()
+    {
+        Destroy(_currentHpBar.gameObject);
     }
 }

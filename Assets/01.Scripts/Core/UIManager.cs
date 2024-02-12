@@ -45,6 +45,7 @@ public class UIManager : MonoBehaviour
 
     [SerializeField] private List<UIScreenElement> _elementGroup = new List<UIScreenElement>();
     private Dictionary<UIScreenType, UIObject[]> _elementDic;
+    private List<GameObject> _currentUIObjList = new List<GameObject>();
 
     [SerializeField] private UIScreenType _startUiScreen;
     private UIScreenType _currentUiType;
@@ -67,9 +68,9 @@ public class UIManager : MonoBehaviour
 
     public void ChangeUIScreen(UIScreenType uiType)
     {
-        foreach (Transform t in canvasTrm)
+        foreach (GameObject obj in _currentUIObjList)
         {
-            Destroy(t.gameObject);
+            Destroy(obj);
         }
 
         if(_elementDic.ContainsKey(uiType))
@@ -78,9 +79,9 @@ public class UIManager : MonoBehaviour
             {
                 GameObject uiObj = Instantiate(u.gameObject, canvasTrm);
                 uiObj.name = uiObj.name.Replace("(Clone)", "");
+                _currentUIObjList.Add(uiObj);
             }
         }
         _currentUiType = uiType;
     }
-
 }

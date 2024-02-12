@@ -3,15 +3,16 @@ using System.Collections.Generic;
 using UnityEngine;
 using UIDefine;
 using DG.Tweening;
+using System;
 
-public class GameFlowSetter : MonoBehaviour
+public class StageOneFlow : GameFlowSetter
 {
-    private void Start()
+    protected override void StartGameFlow()
     {
         StartCoroutine(GameStartCo());
     }
 
-    IEnumerator GameStartCo()
+    private IEnumerator GameStartCo()
     {
         MainBoldText mainBold = FindObjectOfType<MainBoldText>();
         WarnningTape warnTape = FindObjectOfType<WarnningTape>();
@@ -19,7 +20,7 @@ public class GameFlowSetter : MonoBehaviour
         BossManagement bossManagement = FindObjectOfType<BossManagement>();
         SoundManager.Instanace.PlayBgm(SoundDefine.BGMType.Stage_1);
 
-        Transform bossBarTrm = GameObject.Find("BossFire/HPBarPos").transform;
+
 
         mainBold.UpdateBoldText("REMEMBER", true);
         yield return new WaitForSeconds(1f);
@@ -30,7 +31,7 @@ public class GameFlowSetter : MonoBehaviour
         mainBold.UpdateBoldText("ONE THING", true);
         yield return new WaitForSeconds(1f);
 
-        mainBold.UpdateBoldText("\"EXTINGUISH\"", true);
+        mainBold.UpdateBoldText("EXTINGUISH.", true);
         yield return new WaitForSeconds(1f);
 
         mainBold.UpdateBoldText(Direction.UP, Ease.InBack);
@@ -41,6 +42,8 @@ public class GameFlowSetter : MonoBehaviour
         PlayerState.canShoot = true;
 
         bossFire.Active(true);
+
+        Transform bossBarTrm = GameObject.Find("BossFire/HPBarPos").transform;
         bossManagement.SettingBossHpBar(bossBarTrm, UIManager.Instanace.canvasTrm, bossFire);
     }
 }

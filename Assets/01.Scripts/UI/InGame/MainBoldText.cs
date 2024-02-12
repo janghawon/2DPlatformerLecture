@@ -45,11 +45,4 @@ public class MainBoldText : MonoBehaviour
         }
     }
 
-    private void Update()
-    {
-        if(Input.GetKeyDown(KeyCode.W))
-        {
-            UpdateBoldText("11", true);
-        }
-    }
 }

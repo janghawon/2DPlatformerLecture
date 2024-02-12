@@ -58,7 +58,7 @@ public class StageManager : MonoBehaviour
     {
         if(scene.name == "Play")
         {
-            Instantiate(_gameStageArr[SelectStageIdx]);
+            _currentStageObj = Instantiate(_gameStageArr[SelectStageIdx]);
         }
     }
 
@@ -88,6 +88,6 @@ public class StageManager : MonoBehaviour
     public void ResetStage()
     {
         Destroy(_currentStageObj);
-        Instantiate(_gameStageArr[SelectStageIdx]);
+        _currentStageObj = Instantiate(_gameStageArr[SelectStageIdx]);
     }
 }

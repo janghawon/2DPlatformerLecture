@@ -13,8 +13,8 @@ public class Fire : MonoBehaviour
     [Header("°ª")]
     [SerializeField] private FireType _myFireType;
     public FireType MyFireType => _myFireType;
-    [SerializeField] private Transform _fireOrigin;
-    [SerializeField][Range(1, 10)] private float _hotDistance;
+    [SerializeField] protected Transform _fireOrigin;
+    [SerializeField][Range(1, 10)] protected float _hotDistance;
     private Transform _player => GameManager.Instanace.Player;
     [SerializeField] private float _fadeTime;
 
@@ -53,7 +53,8 @@ public class Fire : MonoBehaviour
             BeSuppressed();
         }
     }
-    private void BeSuppressed()
+
+    public void BeSuppressed()
     {
         _collider.enabled = false;
         for (int i = 0; i < _fireRenderer.Length; i++)
@@ -64,6 +65,8 @@ public class Fire : MonoBehaviour
     {
         if(IsInRange())
         {
+            PlayerDie pd = _player.GetComponent<PlayerDie>();
+            pd.CreateResetProcess();
         }
     }
 
@@ -72,7 +75,7 @@ public class Fire : MonoBehaviour
         if (Vector2.Distance(_player.position, _fireOrigin.position) > _hotDistance) return false;
 
         _currentTime += Time.deltaTime;
-        if(_currentTime >= 1)
+        if(_currentTime >= 0.2f)
         {
             _currentTime = 0;
             return true;

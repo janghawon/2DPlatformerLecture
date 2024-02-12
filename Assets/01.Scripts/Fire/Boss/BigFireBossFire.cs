@@ -36,7 +36,13 @@ public class BigFireBossFire : Fire
         _shakeTween.Kill();
         _moveTween.Kill();
 
-        StageManager.Instance.ClearStage(UIManager.Instanace.canvasTrm);
+        if(IsSuppressed)
+        {
+            StageManager.Instance.ClearStage(UIManager.Instanace.canvasTrm);
+            StageManager.Instance.stageData.chapterOneState = StageBubbleState.clear;
+            StageManager.Instance.stageData.chapterSecondState = StageBubbleState.canChallenge;
+        }
+            
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -44,6 +50,22 @@ public class BigFireBossFire : Fire
         if(collision.CompareTag("Fire"))
         {
             _health = _maxHealth;
+        }
+    }
+
+    private void LateUpdate()
+    {
+        Collider2D[] hitColArr = Physics2D.OverlapCircleAll(_fireOrigin.position, _hotDistance);
+        
+        for(int i = 0; i < hitColArr.Length; i++)
+        {
+            if(hitColArr[i].TryGetComponent<Fire>(out Fire fire))
+            {
+                if (fire == this) continue;
+
+                fire.BeSuppressed();
+                _health = _maxHealth;
+            }
         }
     }
 }

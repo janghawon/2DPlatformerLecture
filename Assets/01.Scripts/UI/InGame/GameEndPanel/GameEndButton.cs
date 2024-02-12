@@ -5,7 +5,7 @@ using UnityEngine.EventSystems;
 using UnityEngine.UI;
 using DG.Tweening;
 
-public class GameEndButton : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
+public class GameEndButton : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler, IPointerClickHandler
 {
     [SerializeField] private Image _filterImage;
     [SerializeField] private Image _filterTextImage;
@@ -15,6 +15,11 @@ public class GameEndButton : MonoBehaviour, IPointerEnterHandler, IPointerExitHa
 
     private Tween _textSetupTween;
     private Tween _textInitTween;
+
+    public void OnPointerClick(PointerEventData eventData)
+    {
+        GameManager.Instanace.ChangeScene(1);
+    }
 
     public void OnPointerEnter(PointerEventData eventData)
     {
