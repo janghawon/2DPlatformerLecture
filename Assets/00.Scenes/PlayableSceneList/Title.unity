@@ -173,6 +173,7 @@ MonoBehaviour:
   - {r: 0, g: 0, b: 0, a: 0.8}
   _gameStageArr:
   - {fileID: 7715791058953226241, guid: d41d5bfed5ad89c4089532a3ef7759df, type: 3}
+  - {fileID: 970832080666966499, guid: 900e24ee13daea7409c635f1e3d59b1b, type: 3}
   _gameEndPanelArr:
   - {fileID: 6726939605261190176, guid: 3d3cff8657c3cbb479629f36554e5a08, type: 3}
 --- !u!1 &265811142

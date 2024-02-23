@@ -1,0 +1,1988 @@
+fileFormatVersion: 2
+guid: 1c89378a52db61e4383012267eb33cd6
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ScreenFire_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 8525
+        width: 1400
+        height: 775
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15969fecc453e7e42ac485002f11c1bf
+      internalID: -1275547967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScreenFire_1
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 8525
+        width: 1400
+        height: 775
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18bfe0aa052dc684e9e1f5b57f13edcb
+      internalID: -896318452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScreenFire_2
+      rect:
+        serializedVersion: 2
+        x: 2800
+        y: 8525
+        width: 1400
+        height: 775
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c159ebe6ded595340adab129b551d32d
+      internalID: -1357786862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScreenFire_3
+      rect:
+        serializedVersion: 2
+        x: 4200
+        y: 8525
+        width: 1400
+        height: 775
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc3420602ea3b8941a485576d63871e0
+      internalID: -1750487370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScreenFire_4
+      rect:
+        serializedVersion: 2
+        x: 5600
+        y: 8525
+        width: 1400
+        height: 775
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e75d4dcf0747df48883644c9f50c815
+      internalID: -80790632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScreenFire_5
+      rect:
+        serializedVersion: 2
+        x: 7000
+        y: 8525
+        width: 1400
+        height: 775
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3437172149b5034fa08fed4899449db
+      internalID: 1716528109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScreenFire_6
+      rect:
+        serializedVersion: 2
+        x: 8400
+        y: 8525
+        width: 1400
+        height: 775
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d49ebfefd0f6854883d251083a1fafa
+      internalID: -1560204003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScreenFire_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 7750
+        width: 1400
+        height: 775
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ed8a63b81efded40b40b0eb8e341b7b
+      internalID: 365596382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScreenFire_8
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 7750
+        width: 1400
+        height: 775
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0a584161404ed945b100ac77df0dd7a
+      internalID: -1024578959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScreenFire_9
+      rect:
+        serializedVersion: 2
+        x: 2800
+        y: 7750
+        width: 1400
+        height: 775
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12bea0bda8c2d834090edd2977ab9816
+      internalID: 901588888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScreenFire_10
+      rect:
+        serializedVersion: 2
+        x: 4200
+        y: 7750
+        width: 1400
+        height: 775
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b35cdcd7442e5e40a85c833f9feee05
+      internalID: 27493470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScreenFire_11
+      rect:
+        serializedVersion: 2
+        x: 5600
+        y: 7750
+        width: 1400
+        height: 775
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 008ca2d8258c502498ae937d7bbb3285
+      internalID: 297768560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScreenFire_12
+      rect:
+        serializedVersion: 2
+        x: 7000
+        y: 7750
+        width: 1400
+        height: 775
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cb1e154ca865aa4cacddc235bcbb06e
+      internalID: 395102258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScreenFire_13
+      rect:
+        serializedVersion: 2
+        x: 8400
+        y: 7750
+        width: 1400
+        height: 775
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f881ac1deeed97469fdbe2ec30e8d30
+      internalID: -425449163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScreenFire_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6975
+        width: 1400
+        height: 775
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4df77630b35f78742a44c2061637855b
+      internalID: -362072452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScreenFire_15
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 6975
+        width: 1400
+        height: 775
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e31032022bf790a46b536cbf01b23ae2
+      internalID: 1998083226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScreenFire_16
+      rect:
+        serializedVersion: 2
+        x: 2800
+        y: 6975
+        width: 1400
+        height: 775
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 482840a69e36c914db8a203627f8ca99
+      internalID: 1848540870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScreenFire_17
+      rect:
+        serializedVersion: 2
+        x: 4200
+        y: 6975
+        width: 1400
+        height: 775
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ba44b0c8c118aa42821f4875dc0ae5d
+      internalID: 465688520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScreenFire_18
+      rect:
+        serializedVersion: 2
+        x: 5600
+        y: 6975
+        width: 1400
+        height: 775
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3a6203e6070ee24abe8fe7d11807470
+      internalID: 1452628612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScreenFire_19
+      rect:
+        serializedVersion: 2
+        x: 7000
+        y: 6975
+        width: 1400
+        height: 775
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78d22011b6f67b848b0a24a43fecc581
+      internalID: 1955486683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScreenFire_20
+      rect:
+        serializedVersion: 2
+        x: 8400
+        y: 6975
+        width: 1400
+        height: 775
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b48e309b12ae3b42aac7a90b6c81e71
+      internalID: 579720929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScreenFire_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6200
+        width: 1400
+        height: 775
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f265452da70a9d4bb1243e4df16337a
+      internalID: 412291402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScreenFire_22
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 6200
+        width: 1400
+        height: 775
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d587ab6689d8e043870a40e5358a359
+      internalID: 2120421196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScreenFire_23
+      rect:
+        serializedVersion: 2
+        x: 2800
+        y: 6200
+        width: 1400
+        height: 775
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6dfad276293ccda498339bbe0bbe47d5
+      internalID: -1898313887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScreenFire_24
+      rect:
+        serializedVersion: 2
+        x: 4200
+        y: 6200
+        width: 1400
+        height: 775
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b93fd04800680c4fa4ec58d98fcba91
+      internalID: -1273438790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScreenFire_25
+      rect:
+        serializedVersion: 2
+        x: 5600
+        y: 6200
+        width: 1400
+        height: 775
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 602772d13bb4cf84e82d1dacd8a7b43f
+      internalID: -938226202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScreenFire_26
+      rect:
+        serializedVersion: 2
+        x: 7000
+        y: 6200
+        width: 1400
+        height: 775
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6c66582126bf3e4495374e9b60add96
+      internalID: -510965667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScreenFire_27
+      rect:
+        serializedVersion: 2
+        x: 8400
+        y: 6200
+        width: 1400
+        height: 775
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3d722df072f0a9429489f48b543f2c5
+      internalID: 1026953642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScreenFire_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5425
+        width: 1400
+        height: 775
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae86bfef97ce2714cafee06a8f765ca1
+      internalID: -350021073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScreenFire_29
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 5425
+        width: 1400
+        height: 775
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bf0ca9b6f492514aaae2d067a82bcf8
+      internalID: 1779382704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScreenFire_30
+      rect:
+        serializedVersion: 2
+        x: 2800
+        y: 5425
+        width: 1400
+        height: 775
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69453b4d60582a547908a4cb958135f7
+      internalID: 889508026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScreenFire_31
+      rect:
+        serializedVersion: 2
+        x: 4200
+        y: 5425
+        width: 1400
+        height: 775
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26309dd813659e14c96a0db068cf89c0
+      internalID: -1413109711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScreenFire_32
+      rect:
+        serializedVersion: 2
+        x: 5600
+        y: 5425
+        width: 1400
+        height: 775
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8779f2da3c782243a14bccb90d6585e
+      internalID: -419265565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScreenFire_33
+      rect:
+        serializedVersion: 2
+        x: 7000
+        y: 5425
+        width: 1400
+        height: 775
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3005dd874d5cf354994dcb315b735454
+      internalID: -1357370941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScreenFire_34
+      rect:
+        serializedVersion: 2
+        x: 8400
+        y: 5425
+        width: 1400
+        height: 775
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57e17c6f17e449742a0b86aa6e150991
+      internalID: -1439491620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScreenFire_35
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4650
+        width: 1400
+        height: 775
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68463bb176a2f1a4591ae073f5a0e03e
+      internalID: 1667371743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScreenFire_36
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 4650
+        width: 1400
+        height: 775
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fbc661a0f2a3d245b6203a62a121969
+      internalID: -1108955515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScreenFire_37
+      rect:
+        serializedVersion: 2
+        x: 2800
+        y: 4650
+        width: 1400
+        height: 775
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d37154bd98dedb8448c64188aa84a989
+      internalID: -2134308114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScreenFire_38
+      rect:
+        serializedVersion: 2
+        x: 4200
+        y: 4650
+        width: 1400
+        height: 775
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77eb4731a4798774499f8ef40cd17f8b
+      internalID: -1877735355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScreenFire_39
+      rect:
+        serializedVersion: 2
+        x: 5600
+        y: 4650
+        width: 1400
+        height: 775
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03884ded3808c6a458733b1b5d4f0f9c
+      internalID: 1822737663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScreenFire_40
+      rect:
+        serializedVersion: 2
+        x: 7000
+        y: 4650
+        width: 1400
+        height: 775
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30de983a219df5746856e4022ec385bc
+      internalID: -487815511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScreenFire_41
+      rect:
+        serializedVersion: 2
+        x: 8400
+        y: 4650
+        width: 1400
+        height: 775
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10612e881f1af7e42ae04d92e9ff5f0b
+      internalID: 1419855496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScreenFire_42
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3875
+        width: 1400
+        height: 775
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b5379b3a3969b846bb264b8cc1b79bb
+      internalID: 25802153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScreenFire_43
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 3875
+        width: 1400
+        height: 775
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 401bd1ea397ac8347a8dc11cd050af8a
+      internalID: 237191585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScreenFire_44
+      rect:
+        serializedVersion: 2
+        x: 2800
+        y: 3875
+        width: 1400
+        height: 775
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d64bc9f908eb5b6428d7de5e74965cf1
+      internalID: -1053313972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScreenFire_45
+      rect:
+        serializedVersion: 2
+        x: 4200
+        y: 3875
+        width: 1400
+        height: 775
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 847d0b2ab95c0a74cadfc02c233eea5e
+      internalID: 628512717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScreenFire_46
+      rect:
+        serializedVersion: 2
+        x: 5600
+        y: 3875
+        width: 1400
+        height: 775
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be46b6c903332eb469b5c82914f8bdd2
+      internalID: 1068556736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScreenFire_47
+      rect:
+        serializedVersion: 2
+        x: 7000
+        y: 3875
+        width: 1400
+        height: 775
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 411dfb7a6b93bc64eae4f38eb997915a
+      internalID: 1580803279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScreenFire_48
+      rect:
+        serializedVersion: 2
+        x: 8400
+        y: 3875
+        width: 1400
+        height: 775
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b5d8d6ebd1cbd34a818ad84c3560667
+      internalID: 1988306786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScreenFire_49
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3100
+        width: 1400
+        height: 775
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d637fe69deabaa46928e3505d19d890
+      internalID: -78626408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScreenFire_50
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 3100
+        width: 1400
+        height: 775
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5b8b47abab45b146bf8003fad1a3111
+      internalID: -1523176784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScreenFire_51
+      rect:
+        serializedVersion: 2
+        x: 2800
+        y: 3100
+        width: 1400
+        height: 775
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d56c5c315563dee4e96e9e4c5c109a00
+      internalID: 2078872255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScreenFire_52
+      rect:
+        serializedVersion: 2
+        x: 4200
+        y: 3100
+        width: 1400
+        height: 775
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f3ae7a61f788534bbff921a47fead53
+      internalID: -90611456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScreenFire_53
+      rect:
+        serializedVersion: 2
+        x: 5600
+        y: 3100
+        width: 1400
+        height: 775
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af22dc9d1fa84384eb4a4e9d33be1e9c
+      internalID: -1859271882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScreenFire_54
+      rect:
+        serializedVersion: 2
+        x: 7000
+        y: 3100
+        width: 1400
+        height: 775
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d8ec084fc23c5d46902a99faf2914ae
+      internalID: 369243326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScreenFire_55
+      rect:
+        serializedVersion: 2
+        x: 8400
+        y: 3100
+        width: 1400
+        height: 775
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa6016f0d04e24e4eb1d70d969f1bc0c
+      internalID: 1320557470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScreenFire_56
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2325
+        width: 1400
+        height: 775
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11167bc24acecee419494ea0a491f5cd
+      internalID: 869736814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScreenFire_57
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 2325
+        width: 1400
+        height: 775
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1fe45f15b453f245bcd7365863b75ae
+      internalID: 843889085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScreenFire_58
+      rect:
+        serializedVersion: 2
+        x: 2800
+        y: 2325
+        width: 1400
+        height: 775
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3661a1c37dc430542bde9f0633fe2ed1
+      internalID: -1992706551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScreenFire_59
+      rect:
+        serializedVersion: 2
+        x: 4200
+        y: 2325
+        width: 1400
+        height: 775
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9827dfbec385b594b8bd95c981e1bfdb
+      internalID: 764372158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScreenFire_60
+      rect:
+        serializedVersion: 2
+        x: 5600
+        y: 2325
+        width: 1400
+        height: 775
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12d1b80b81b279c46b01f4f45cdc4221
+      internalID: -1871403106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScreenFire_61
+      rect:
+        serializedVersion: 2
+        x: 7000
+        y: 2325
+        width: 1400
+        height: 775
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63f516a6f890a0241a0c9a55e12e3482
+      internalID: -1044330830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScreenFire_62
+      rect:
+        serializedVersion: 2
+        x: 8400
+        y: 2325
+        width: 1400
+        height: 775
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d96f8f0cab7bc0a4db337cf1c213c44f
+      internalID: 1856611390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScreenFire_63
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1550
+        width: 1400
+        height: 775
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d381716a1cc1dfb41ba3a0fbb544d620
+      internalID: 558785518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScreenFire_64
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 1550
+        width: 1400
+        height: 775
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c14b0d303053ba47b4b1249ce7c9991
+      internalID: -17034668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScreenFire_65
+      rect:
+        serializedVersion: 2
+        x: 2800
+        y: 1550
+        width: 1400
+        height: 775
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 823aeadbd1b038842a269bdc561095d2
+      internalID: 811233906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScreenFire_66
+      rect:
+        serializedVersion: 2
+        x: 4200
+        y: 1550
+        width: 1400
+        height: 775
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6074222d28f855b4c9a7976257c90900
+      internalID: -830661963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScreenFire_67
+      rect:
+        serializedVersion: 2
+        x: 5600
+        y: 1550
+        width: 1400
+        height: 775
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e2aa636580cf4b4b870758e7e2d79a6
+      internalID: -760800460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScreenFire_68
+      rect:
+        serializedVersion: 2
+        x: 7000
+        y: 1550
+        width: 1400
+        height: 775
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4d22dab9fa731246a09a623ffa67727
+      internalID: -438205061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScreenFire_69
+      rect:
+        serializedVersion: 2
+        x: 8400
+        y: 1550
+        width: 1400
+        height: 775
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ab4b48a1b619d54b9d2129b6f2af3d1
+      internalID: -1907831819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScreenFire_70
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 775
+        width: 1400
+        height: 775
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea8525e48b980154983f8a917bb82f49
+      internalID: -1240438108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScreenFire_71
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 775
+        width: 1400
+        height: 775
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49d4f713920f8a6458c272b7d302f086
+      internalID: -687578527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScreenFire_72
+      rect:
+        serializedVersion: 2
+        x: 2800
+        y: 775
+        width: 1400
+        height: 775
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cacd05f28ca56a44b56ea9766633e5a
+      internalID: 2027076781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScreenFire_73
+      rect:
+        serializedVersion: 2
+        x: 4200
+        y: 775
+        width: 1400
+        height: 775
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d475c9e96c05804aab1ebed59108c08
+      internalID: -2106347490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScreenFire_74
+      rect:
+        serializedVersion: 2
+        x: 5600
+        y: 775
+        width: 1400
+        height: 775
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36f5ce02e971bf145b30c7c209236390
+      internalID: 739895584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScreenFire_75
+      rect:
+        serializedVersion: 2
+        x: 7000
+        y: 775
+        width: 1400
+        height: 775
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b57ee02fa8b285e49962702ff637efa4
+      internalID: 831752583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScreenFire_76
+      rect:
+        serializedVersion: 2
+        x: 8400
+        y: 775
+        width: 1400
+        height: 775
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7981a46b110390c468180a61e447aaab
+      internalID: 15268266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScreenFire_77
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1400
+        height: 775
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55f0ec494bd9c2b45a2673b21ad49c99
+      internalID: 1404094101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScreenFire_78
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 0
+        width: 1400
+        height: 775
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b57244d2406dc8a45ab6960ce2cc1c5d
+      internalID: 1669283100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScreenFire_79
+      rect:
+        serializedVersion: 2
+        x: 2800
+        y: 0
+        width: 1400
+        height: 775
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f12d67da765f8d74190e5e46058dd453
+      internalID: -9606367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScreenFire_80
+      rect:
+        serializedVersion: 2
+        x: 4200
+        y: 0
+        width: 1400
+        height: 775
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 413aef9ec36bac742a2d76395f868b0e
+      internalID: -492402233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScreenFire_81
+      rect:
+        serializedVersion: 2
+        x: 5600
+        y: 0
+        width: 1400
+        height: 775
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f25e6ac7f5c112943a119518d8ccd855
+      internalID: -896776850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScreenFire_82
+      rect:
+        serializedVersion: 2
+        x: 7000
+        y: 0
+        width: 1400
+        height: 775
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae449f5da4acef546822d5af7b856134
+      internalID: -2007535871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScreenFire_83
+      rect:
+        serializedVersion: 2
+        x: 8400
+        y: 0
+        width: 1400
+        height: 775
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fff10ddfe38e1a4fabdbebe7ed6b9dc
+      internalID: 1390416550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      ScreenFire_0: -1275547967
+      ScreenFire_1: -896318452
+      ScreenFire_10: 27493470
+      ScreenFire_11: 297768560
+      ScreenFire_12: 395102258
+      ScreenFire_13: -425449163
+      ScreenFire_14: -362072452
+      ScreenFire_15: 1998083226
+      ScreenFire_16: 1848540870
+      ScreenFire_17: 465688520
+      ScreenFire_18: 1452628612
+      ScreenFire_19: 1955486683
+      ScreenFire_2: -1357786862
+      ScreenFire_20: 579720929
+      ScreenFire_21: 412291402
+      ScreenFire_22: 2120421196
+      ScreenFire_23: -1898313887
+      ScreenFire_24: -1273438790
+      ScreenFire_25: -938226202
+      ScreenFire_26: -510965667
+      ScreenFire_27: 1026953642
+      ScreenFire_28: -350021073
+      ScreenFire_29: 1779382704
+      ScreenFire_3: -1750487370
+      ScreenFire_30: 889508026
+      ScreenFire_31: -1413109711
+      ScreenFire_32: -419265565
+      ScreenFire_33: -1357370941
+      ScreenFire_34: -1439491620
+      ScreenFire_35: 1667371743
+      ScreenFire_36: -1108955515
+      ScreenFire_37: -2134308114
+      ScreenFire_38: -1877735355
+      ScreenFire_39: 1822737663
+      ScreenFire_4: -80790632
+      ScreenFire_40: -487815511
+      ScreenFire_41: 1419855496
+      ScreenFire_42: 25802153
+      ScreenFire_43: 237191585
+      ScreenFire_44: -1053313972
+      ScreenFire_45: 628512717
+      ScreenFire_46: 1068556736
+      ScreenFire_47: 1580803279
+      ScreenFire_48: 1988306786
+      ScreenFire_49: -78626408
+      ScreenFire_5: 1716528109
+      ScreenFire_50: -1523176784
+      ScreenFire_51: 2078872255
+      ScreenFire_52: -90611456
+      ScreenFire_53: -1859271882
+      ScreenFire_54: 369243326
+      ScreenFire_55: 1320557470
+      ScreenFire_56: 869736814
+      ScreenFire_57: 843889085
+      ScreenFire_58: -1992706551
+      ScreenFire_59: 764372158
+      ScreenFire_6: -1560204003
+      ScreenFire_60: -1871403106
+      ScreenFire_61: -1044330830
+      ScreenFire_62: 1856611390
+      ScreenFire_63: 558785518
+      ScreenFire_64: -17034668
+      ScreenFire_65: 811233906
+      ScreenFire_66: -830661963
+      ScreenFire_67: -760800460
+      ScreenFire_68: -438205061
+      ScreenFire_69: -1907831819
+      ScreenFire_7: 365596382
+      ScreenFire_70: -1240438108
+      ScreenFire_71: -687578527
+      ScreenFire_72: 2027076781
+      ScreenFire_73: -2106347490
+      ScreenFire_74: 739895584
+      ScreenFire_75: 831752583
+      ScreenFire_76: 15268266
+      ScreenFire_77: 1404094101
+      ScreenFire_78: 1669283100
+      ScreenFire_79: -9606367
+      ScreenFire_8: -1024578959
+      ScreenFire_80: -492402233
+      ScreenFire_81: -896776850
+      ScreenFire_82: -2007535871
+      ScreenFire_83: 1390416550
+      ScreenFire_9: 901588888
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
