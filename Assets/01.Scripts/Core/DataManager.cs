@@ -1,4 +1,3 @@
-using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using System.IO;
@@ -59,7 +58,7 @@ public class DataManager : MonoBehaviour
     {
         if (!IsHaveData(dataKey))
         {
-            Debug.LogWarning($"Error! No exit data key!! Key name : {dataKey}");
+            Debug.LogWarning($"Error! No exist data key!! Key name : {dataKey}");
             return default(T);
         }
         return JsonUtility.FromJson<T>(File.ReadAllText(GetFilePath(dataKey)));

@@ -28,7 +28,7 @@ public class BossHand : MonoBehaviour
         _targetPos = transform.position;
         _lookDirectionSensor.playerLookDirChanged += HandleChangeHandOrigin;
         HandleChangeHandOrigin(true);
-        StartAttackSequence();
+        StartCoroutine(StartAttackSequence());
     }
 
     private void HandleChangeHandOrigin(bool isLookRight)
@@ -64,8 +64,9 @@ public class BossHand : MonoBehaviour
         }
     }
 
-    public void StartAttackSequence()
+    private IEnumerator StartAttackSequence()
     {
+        yield return new WaitForSeconds(3f);
         StartCoroutine(AttackSequenceCorotine());
     }
 
@@ -89,9 +90,10 @@ public class BossHand : MonoBehaviour
 
     IEnumerator AttackSequenceCorotine()
     {
+        _isAttacking = false;
         yield return new WaitForSeconds(0.5f);
         _spriteRenderer.sprite = _normalSprite;
-        _isAttacking = false;
+        
         float randomTime = Random.Range(_attackTurmRange.x, _attackTurmRange.y);
         yield return new WaitForSeconds(randomTime);
         

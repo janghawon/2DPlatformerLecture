@@ -27,10 +27,11 @@ public class StageTwoFlow : GameFlowSetter
         yield return new WaitForSeconds(1f);
 
         mainBold.UpdateBoldText("DESTROY", true);
+        ashBoss.Active(true);
+
         yield return new WaitForSeconds(1f);
         mainBold.UpdateBoldText(Direction.UP, Ease.InBack);
 
-        ashBoss.Active(true);
         yield return new WaitForSeconds(2);
 
         PlayerState.canMove = true;

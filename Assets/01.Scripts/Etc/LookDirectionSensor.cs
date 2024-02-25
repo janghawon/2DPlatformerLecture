@@ -2,13 +2,14 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using System;
+using UIDefine;
 
 public class LookDirectionSensor : MonoBehaviour
 {
     private Transform _playerTrm;
     private float _playerXPos;
     public Action<bool> playerLookDirChanged = null;
-    private bool _playerLookRight = true;
+    private Direction _playerLookDirection = Direction.UP;
 
     private void Start()
     {
@@ -17,15 +18,15 @@ public class LookDirectionSensor : MonoBehaviour
 
     private void Update()
     {
-        if(_playerTrm.position.x > _playerXPos && !_playerLookRight) // 왼쪽 보다가 오른쪽 보고 있음
+        if(_playerTrm.position.x > _playerXPos && _playerLookDirection != Direction.RIGHT) // 왼쪽 보다가 오른쪽 보고 있음
         {
-            _playerLookRight = true;
+            _playerLookDirection = Direction.RIGHT;
             playerLookDirChanged?.Invoke(true);
         }
         else if(_playerTrm.position.x < _playerXPos && 
-                _playerTrm.position.x != _playerXPos && _playerLookRight)
+                _playerTrm.position.x != _playerXPos && _playerLookDirection != Direction.LEFT)
         {
-            _playerLookRight= false;
+            _playerLookDirection = Direction.LEFT;
             playerLookDirChanged?.Invoke(false);
         }
         

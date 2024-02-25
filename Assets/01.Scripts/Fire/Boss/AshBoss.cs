@@ -31,7 +31,6 @@ public class AshBoss : MonoBehaviour
         }
     }
 
-
     void Update()
     {
         float xPos = Mathf.Lerp(transform.position.x, GameManager.Instanace.Player.position.x, Time.deltaTime);
