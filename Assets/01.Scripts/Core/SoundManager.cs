@@ -21,12 +21,18 @@ public class SoundManager : MonoBehaviour
     }
 
     [SerializeField] private AudioSource _audioSource;
-    [SerializeField] private AudioClip[] _clipArr;
+    [SerializeField] private AudioClip[] _bgmClipArr;
+    [SerializeField] private AudioClip[] _sfxClipArr;
 
     public void PlayBgm(BGMType bgm)
     {
         _audioSource.Stop();
-        _audioSource.clip = _clipArr[(int)bgm];
+        _audioSource.clip = _bgmClipArr[(int)bgm];
         _audioSource.Play();
+    }
+
+    public void PlaySFX(SFXType sfx)
+    {
+        _audioSource.PlayOneShot(_sfxClipArr[(int)sfx]);
     }
 }

@@ -14,6 +14,7 @@ public class LookDirectionSensor : MonoBehaviour
     private void Start()
     {
         _playerTrm = GameManager.Instanace.Player;
+        _playerXPos = _playerTrm.position.x;
     }
 
     private void Update()
