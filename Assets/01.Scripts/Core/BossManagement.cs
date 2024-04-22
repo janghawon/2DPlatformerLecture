@@ -15,6 +15,7 @@ public class BossManagement : MonoBehaviour
 
     public void RemoveBossHpBar()
     {
-        Destroy(_currentHpBar.gameObject);
+        if(_currentHpBar != null ) 
+            Destroy(_currentHpBar.gameObject);
     }
 }

@@ -46,8 +46,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _audioSource: {fileID: 8664382696467033569}
-  _clipArr:
+  _bgmClipArr:
   - {fileID: 8300000, guid: d795507d756ee7f44b77ce2e7b003a2c, type: 3}
+  _sfxClipArr: []
 --- !u!82 &8664382696467033569
 AudioSource:
   m_ObjectHideFlags: 0

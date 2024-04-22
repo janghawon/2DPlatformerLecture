@@ -17,14 +17,15 @@ public class GameManager : MonoBehaviour
             return _mainCam;
         }
     }
-
     private Transform _player;
     public Transform Player
     {
         get
         {
             if(_player != null)
+            {
                 return _player;
+            }
             else
             {
                 _player = FindObjectOfType<PlayerInput>().transform;
@@ -32,9 +33,6 @@ public class GameManager : MonoBehaviour
             }
         }
     }
-
-    public int playerHP;
-
     private static GameManager _instance;
     public static GameManager Instanace
     {
@@ -49,7 +47,7 @@ public class GameManager : MonoBehaviour
             return _instance;
         }
     }
-
+    
     public void ChangeScene(int sceneIdx)
     {
         SceneManager.LoadScene("LoadingScene");
@@ -57,7 +55,6 @@ public class GameManager : MonoBehaviour
         StartCoroutine(LoadSceneCoroutine(sceneIdx));
         
     }
-
     IEnumerator LoadSceneCoroutine(int bIDX)
     {
         AsyncOperation sceneLoadAsyncOperation = SceneManager.LoadSceneAsync(bIDX);
@@ -68,12 +65,10 @@ public class GameManager : MonoBehaviour
             yield return null;
         }
     }
-
     public Vector3 GetMousePos()
     {
         return MainCamera.ScreenToWorldPoint(Input.mousePosition);
     }
-
     public Vector3 GetCanvasPos(Vector2 worldPos, RectTransform canvasRect)
     {
         Vector2 screenPoint = RectTransformUtility.WorldToScreenPoint(MainCamera, worldPos);

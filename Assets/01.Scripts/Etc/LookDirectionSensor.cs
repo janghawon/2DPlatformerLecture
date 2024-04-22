@@ -13,7 +13,7 @@ public class LookDirectionSensor : MonoBehaviour
 
     private void Start()
     {
-        _playerTrm = GameManager.Instanace.Player;
+        _playerTrm = FindObjectOfType<PlayerInput>().transform;
         _playerXPos = _playerTrm.position.x;
     }
 

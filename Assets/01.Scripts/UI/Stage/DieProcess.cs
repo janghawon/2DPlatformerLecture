@@ -10,6 +10,10 @@ public class DieProcess : MonoBehaviour
         StageManager.Instance.ResetStage();
     }
 
+    public void InitPlayer()
+    {
+    }
+
     public void DestroyObj()
     {
         Destroy(gameObject);
