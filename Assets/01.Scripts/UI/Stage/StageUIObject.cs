@@ -4,5 +4,8 @@ using UnityEngine;
 
 public class StageUIObject : UIObject
 {
-    
+    private void Start()
+    {
+        SoundManager.Instanace.PlayBgm(SoundDefine.BGMType.Lobby);
+    }
 }

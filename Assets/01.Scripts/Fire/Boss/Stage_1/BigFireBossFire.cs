@@ -38,6 +38,7 @@ public class BigFireBossFire : Fire
 
         if(IsSuppressed)
         {
+            Debug.Log("dd");
             StageManager.Instance.ClearStage(UIManager.Instanace.canvasTrm);
             StageManager.Instance.stageData.chapterOneState = StageBubbleState.clear;
             StageManager.Instance.stageData.chapterSecondState = StageBubbleState.canChallenge;

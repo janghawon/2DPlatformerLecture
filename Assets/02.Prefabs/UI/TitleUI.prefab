@@ -37,6 +37,103 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &1616007920928452000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 547914467905326770}
+  - component: {fileID: 5002522104152434489}
+  - component: {fileID: 3812436120515774594}
+  - component: {fileID: 1830210688637708478}
+  m_Layer: 0
+  m_Name: Fire
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &547914467905326770
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1616007920928452000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1017526563534739256}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: -132}
+  m_SizeDelta: {x: 1920, y: 841.46}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &5002522104152434489
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1616007920928452000}
+  m_CullTransparentMesh: 1
+--- !u!114 &3812436120515774594
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1616007920928452000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 94292764, guid: 727b525a50082b848974a1ff36062941, type: 3}
+  m_Type: 3
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 1
+  m_FillAmount: 0.962
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!95 &1830210688637708478
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1616007920928452000}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: eb15f0e9b61ea8d4faa802b4124aa635, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1867790942928400443
 GameObject:
   m_ObjectHideFlags: 0
@@ -105,8 +202,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: '- Press Any Key To Start -'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 37c68e880324a5c418962d2bdbfed619, type: 2}
-  m_sharedMaterial: {fileID: -1545602628584513919, guid: 37c68e880324a5c418962d2bdbfed619, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 75f5d7b2817e3564f85eac9c55a3a3c9, type: 2}
+  m_sharedMaterial: {fileID: -7014335327726309601, guid: 75f5d7b2817e3564f85eac9c55a3a3c9, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -295,7 +392,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -888, y: 210}
+  m_AnchoredPosition: {x: -888, y: 336}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &5146473193052479939
@@ -326,11 +423,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Don''t
-
-    Stop
-
-    Extingushi ! !'
+  m_text: KILL THE FIRE
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 75f5d7b2817e3564f85eac9c55a3a3c9, type: 2}
   m_sharedMaterial: {fileID: -7014335327726309601, guid: 75f5d7b2817e3564f85eac9c55a3a3c9, type: 2}
@@ -618,6 +711,7 @@ RectTransform:
   - {fileID: 4772466706763714640}
   - {fileID: 6484290833681732752}
   - {fileID: 2515996945797433315}
+  - {fileID: 547914467905326770}
   - {fileID: 3388176328338113398}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -672,7 +766,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -868, y: 198}
+  m_AnchoredPosition: {x: -868, y: 322}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &7031767030819508433
@@ -703,11 +797,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Don''t
-
-    Stop
-
-    Extingushi ! !'
+  m_text: KILL THE FIRE
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 75f5d7b2817e3564f85eac9c55a3a3c9, type: 2}
   m_sharedMaterial: {fileID: -7014335327726309601, guid: 75f5d7b2817e3564f85eac9c55a3a3c9, type: 2}
@@ -716,8 +806,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 1056964608
-  m_fontColor: {r: 0, g: 0, b: 0, a: 0.24705882}
+    rgba: 1056964863
+  m_fontColor: {r: 1, g: 0, b: 0, a: 0.24705882}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:

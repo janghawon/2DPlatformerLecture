@@ -12,7 +12,6 @@ public class AshBoss : MonoBehaviour
     [Header("ÂüÁ¶")]
     [SerializeField] private Transform _handTrm;
     [SerializeField] private SpriteRenderer _bodyRenderer;
-    [SerializeField] private Sprite _dieSprite;
 
     private bool _isDead;
 
@@ -31,8 +30,7 @@ public class AshBoss : MonoBehaviour
         else
         {
             _isDead = true;
-            _bodyRenderer.sprite = _dieSprite;
-            _bodyRenderer.material.DOFloat(-1.5f, "Vector1_E974001A", 2f);
+            _bodyRenderer.material.DOFloat(-1.5f, "Vector1_E974001A", 10f);
         }
     }
 

@@ -16,6 +16,7 @@ public class StageBubbleDefine : MonoBehaviour
 
         StageManager.Instance.GenerateData();
         StageBossPanel[] stagePanelArr = FindObjectsOfType<StageBossPanel>();
+
         foreach(StageBossPanel sbp in stagePanelArr)
         {
             sbp.SetStageStage(StageManager.Instance.GetStageState(sbp.StageIdx));

@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using FireDefine;
 using DG.Tweening;
+using UnityEngine.Events;
 
 public class Fire : MonoBehaviour
 {
@@ -31,15 +32,18 @@ public class Fire : MonoBehaviour
     public bool IsSuppressed => _isSuppressed;
     private float _currentTime;
 
+    [SerializeField] private UnityEvent _fireSuppressedEvent;
+
     private void Start()
     {
         FireData myData = FireManager.Instanace.GetFireData(_myFireType);
         _health = myData.health;
         _maxHealth = _health;
 
-        for(int i = 0; i< _fireRenderer.Length; i++)
+        for (int i = 0; i < _fireRenderer.Length; i++)
             _baseColor = _fireRenderer[i].color;
     }
+
 
     public void GetDamage()
     {
@@ -58,7 +62,17 @@ public class Fire : MonoBehaviour
     {
         _collider.enabled = false;
         for (int i = 0; i < _fireRenderer.Length; i++)
-            _fireRenderer[i].DOFade(0, 0.4f).OnComplete(()=>Destroy(gameObject));
+        {
+            Tween fadeTween = _fireRenderer[i].DOFade(0, 0.4f);
+            if(i == _fireRenderer.Length - 1)
+            {
+                fadeTween.OnComplete(() =>
+                {
+                    _fireSuppressedEvent?.Invoke();
+                    Destroy(gameObject);
+                });
+            }
+        }
     }
 
     private void Update()
@@ -67,6 +81,7 @@ public class Fire : MonoBehaviour
         {
             PlayerDie pd = _player.GetComponent<PlayerDie>();
             pd.CreateResetProcess();
+            PlayerState.isDie = true;
         }
     }
 

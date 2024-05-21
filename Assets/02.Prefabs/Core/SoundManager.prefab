@@ -48,7 +48,11 @@ MonoBehaviour:
   _audioSource: {fileID: 8664382696467033569}
   _bgmClipArr:
   - {fileID: 8300000, guid: d795507d756ee7f44b77ce2e7b003a2c, type: 3}
-  _sfxClipArr: []
+  - {fileID: 8300000, guid: 12e62525b5dcba843add7007356c8140, type: 3}
+  - {fileID: 8300000, guid: 68b23a41cddd4cd4391827e47fdae2b2, type: 3}
+  - {fileID: 8300000, guid: c4d345776ecd2af4aa784ac962ca3257, type: 3}
+  _sfxClipArr:
+  - {fileID: 8300000, guid: 2efe50568f67f094c94a53e410ee0aa4, type: 3}
 --- !u!82 &8664382696467033569
 AudioSource:
   m_ObjectHideFlags: 0

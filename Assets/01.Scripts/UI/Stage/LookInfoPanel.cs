@@ -11,6 +11,8 @@ public class LookInfoPanel : MonoBehaviour
 
     public void HandleActivePanel(int idx, bool value)
     {
+        SoundManager.Instanace.PlaySFX(SoundDefine.SFXType.ButtonClick);
+
         if (value)
         {
             StageManager.Instance.SelectStageIdx = idx;
@@ -31,6 +33,7 @@ public class LookInfoPanel : MonoBehaviour
 
     public void LoadSceneToPlay()
     {
+        SoundManager.Instanace.PlaySFX(SoundDefine.SFXType.ButtonClick);
         GameManager.Instanace.ChangeScene(2);
     }
 }

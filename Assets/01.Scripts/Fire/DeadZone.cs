@@ -9,6 +9,7 @@ public class DeadZone : MonoBehaviour
         if(collision.gameObject.TryGetComponent<PlayerDie>(out PlayerDie pd))
         {
             pd.CreateResetProcess();
+            PlayerState.isDie = true;
         }
     }
 }

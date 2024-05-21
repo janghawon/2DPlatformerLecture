@@ -31,6 +31,11 @@ public class SoundManager : MonoBehaviour
         _audioSource.Play();
     }
 
+    public void StopBgm()
+    {
+        _audioSource.Stop();
+    }
+
     public void PlaySFX(SFXType sfx)
     {
         _audioSource.PlayOneShot(_sfxClipArr[(int)sfx]);

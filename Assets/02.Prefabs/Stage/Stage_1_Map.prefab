@@ -11553,6 +11553,9 @@ MonoBehaviour:
   _fireOrigin: {fileID: 8988726185662069311}
   _hotDistance: 5
   _fadeTime: 0.4
+  _fireSuppressedEvent:
+    m_PersistentCalls:
+      m_Calls: []
   _destinationX: 74
   _visualTrm: {fileID: 8988726185662069311}
 --- !u!61 &3497591026810500506
@@ -11781,7 +11784,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _rigid: {fileID: 967494939373867353}
   movementSpeed: 0
-  _jumpForce: 11.5
+  _jumpForce: 15
+  _layerMask:
+    serializedVersion: 2
+    m_Bits: 128
 --- !u!114 &2928827166538606215
 MonoBehaviour:
   m_ObjectHideFlags: 0

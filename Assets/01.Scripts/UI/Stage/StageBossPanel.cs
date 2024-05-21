@@ -36,6 +36,7 @@ public class StageBossPanel : MonoBehaviour, IPointerClickHandler
 
     public void PanelDown()
     {
+        SoundManager.Instanace.PlaySFX(SoundDefine.SFXType.ButtonClick);
         _panelActiveEvent?.Invoke(_stageIdx - 1, false);
     }
 }

@@ -8,6 +8,8 @@ public class PlayerDie : MonoBehaviour
 
     public void CreateResetProcess()
     {
+        if (PlayerState.isDie) return;
+
         BossManagement bm = FindObjectOfType<BossManagement>();
         bm.RemoveBossHpBar();
         Instantiate(_gameResetProcess, UIManager.Instanace.canvasTrm);
